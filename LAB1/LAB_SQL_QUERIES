@@ -1,0 +1,168 @@
+-- ======================================================================
+-- Project: Stock Price Prediction (AMZN & META)
+-- Authors: Danish Waseem (019101511), Srinidhi Jaya Revanth Srirangarajapally (019123143)
+-- Course: Applied Data Science
+-- College: San Jose State University
+--
+-- Description:
+-- This SQL script contains all Snowflake queries used in the Airflow ETL
+-- and Stock Forecasting pipelines for automating stock data collection
+-- and prediction using yfinance and Snowflake ML Forecast.
+-- ======================================================================
+
+
+-- ======================================================================
+-- SECTION 1: ETL_DAG (Extract → Transform → Load)
+-- ======================================================================
+
+-- 1.1 Create table if not exists (DDL)
+-- This creates a table to store daily OHLCV (Open, High, Low, Close, Volume) data
+-- fetched from yfinance for each symbol.
+CREATE TABLE IF NOT EXISTS RAW.MARKET_DATA (
+DATE DATE NOT NULL,
+OPEN FLOAT NOT NULL,
+HIGH FLOAT NOT NULL,
+LOW FLOAT NOT NULL,
+CLOSE FLOAT NOT NULL,
+VOLUME BIGINT NOT NULL,
+SYMBOL VARCHAR(10) NOT NULL,
+CREATED_AT TIMESTAMP_NTZ DEFAULT CURRENT_TIMESTAMP()
+);
+
+-- 1.2 Delete existing rows for selected symbols
+-- Ensures idempotency: removes old data before inserting new rows.
+DELETE FROM RAW.MARKET_DATA
+WHERE SYMBOL IN ('META', 'AMZN');
+
+-- 1.3 Insert new daily data records
+-- Executed from Airflow DAG per symbol and per date.
+-- Example insert below shows how each record is written.
+INSERT INTO RAW.MARKET_DATA
+(DATE, OPEN, HIGH, LOW, CLOSE, VOLUME, SYMBOL)
+VALUES (
+TO_DATE('2025-10-06','YYYY-MM-DD'),
+320.54, 324.12, 317.23, 322.77,
+18234000, 'AMZN'
+);
+
+-- 1.4 Validate ETL data
+-- Confirms the ETL process successfully inserted rows.
+SELECT COUNT(*) AS ROW_COUNT FROM RAW.MARKET_DATA;
+
+-- 1.5 Optional: Inspect data for QA
+SELECT SYMBOL, COUNT(*) AS TOTAL_ROWS, MIN(DATE) AS START_DATE, MAX(DATE) AS END_DATE
+FROM RAW.MARKET_DATA
+GROUP BY SYMBOL;
+
+
+-- ======================================================================
+-- SECTION 2: STOCK_FORECASTING_DAG (Verify → Train → Predict)
+-- ======================================================================
+
+-- 2.1 Verify ETL data exists
+-- Safety check executed before training.
+-- Prevents forecasting when no data is available.
+SELECT COUNT(*) AS TOTAL_ROWS
+FROM RAW.MARKET_DATA;
+
+-- 2.2 Create a training view for Snowflake ML
+-- Converts DATE to TIMESTAMP_NTZ and filters the relevant symbols.
+CREATE OR REPLACE VIEW MARKET_DATA_V1 AS
+SELECT
+TO_TIMESTAMP_NTZ(DATE) AS DATE_V1,
+CLOSE,
+SYMBOL
+FROM RAW.MARKET_DATA
+WHERE SYMBOL IN ('META','AMZN');
+
+-- 2.3 Train the forecasting model
+-- Creates a Snowflake ML model using the SNOWFLAKE.ML.FORECAST function.
+-- Automatically detects patterns, seasonality, and trends for each symbol.
+CREATE OR REPLACE SNOWFLAKE.ML.FORECAST stock_price(
+INPUT_DATA => SYSTEM$REFERENCE('VIEW', 'MARKET_DATA_V1'),
+SERIES_COLNAME => 'SYMBOL',
+TIMESTAMP_COLNAME => 'DATE_V1',
+TARGET_COLNAME => 'CLOSE',
+CONFIG_OBJECT => { 'ON_ERROR': 'SKIP' }
+);
+
+-- 2.4 Run the model forecast and store results
+-- Uses professor’s standard SQL block pattern:
+-- BEGIN ... CALL model!FORECAST ... LET x := SQLID ... RESULT_SCAN(:x)
+BEGIN
+CALL stock_price!FORECAST(
+FORECASTING_PERIODS => 14, -- 7 trading days ahead
+CONFIG_OBJECT => {'prediction_interval': 0.95}
+);
+LET x := SQLID; -- capture Snowflake’s query ID
+CREATE OR REPLACE TABLE RAW.MARKET_DATA_FORECAST_RAW AS
+SELECT * FROM TABLE(RESULT_SCAN(:x)); -- write forecast results
+END;
+
+-- 2.5 Create a clean forecast view
+-- Normalizes data types and removes extra quotes from string columns.
+CREATE OR REPLACE VIEW MARKET_DATA_FORECAST_CLEAN AS
+SELECT
+REPLACE(series, '"','') AS SYMBOL,
+CAST(ts AS TIMESTAMP_NTZ) AS DATE_V1,
+forecast,
+lower_bound,
+upper_bound
+FROM RAW.MARKET_DATA_FORECAST_RAW;
+
+-- 2.6 Combine historical and forecasted data
+-- Unions historical prices with future predictions into one table.
+CREATE OR REPLACE TABLE RAW.MARKET_DATA_COMBINED AS
+SELECT
+SYMBOL,
+DATE AS DATE,
+CLOSE AS ACTUAL,
+NULL AS FORECAST,
+NULL AS LOWER_BOUND,
+NULL AS UPPER_BOUND
+FROM RAW.MARKET_DATA
+WHERE SYMBOL IN ('META','AMZN')
+
+UNION ALL
+
+SELECT
+SYMBOL,
+CAST(DATE_V1 AS DATE) AS DATE,
+NULL AS ACTUAL,
+FORECAST,
+LOWER_BOUND,
+UPPER_BOUND
+FROM MARKET_DATA_FORECAST_CLEAN;
+
+
+-- ======================================================================
+-- SECTION 3: DATA VALIDATION AND INSPECTION
+-- ======================================================================
+
+-- 3.1 Preview forecast data
+SELECT * FROM RAW.MARKET_DATA_FORECAST_RAW
+ORDER BY DATE_V1 DESC, SYMBOL
+LIMIT 10;
+
+-- 3.2 Preview cleaned forecast view
+SELECT * FROM MARKET_DATA_FORECAST_CLEAN
+ORDER BY DATE_V1 DESC, SYMBOL
+LIMIT 10;
+
+-- 3.3 Verify combined table contents
+SELECT SYMBOL, DATE, ACTUAL, FORECAST
+FROM RAW.MARKET_DATA_COMBINED
+ORDER BY DATE DESC, SYMBOL
+LIMIT 15;
+
+-- 3.4 Summary statistics for QA
+SELECT SYMBOL,
+COUNT(*) AS TOTAL_RECORDS,
+MIN(DATE) AS MIN_DATE,
+MAX(DATE) AS MAX_DATE
+FROM RAW.MARKET_DATA_COMBINED
+GROUP BY SYMBOL;
+
+-- ======================================================================
+-- END OF SQL SCRIPT
+-- ======================================================================

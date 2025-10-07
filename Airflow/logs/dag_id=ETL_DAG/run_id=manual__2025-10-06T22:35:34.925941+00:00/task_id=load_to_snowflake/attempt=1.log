@@ -1,0 +1,24 @@
+[2025-10-06T22:35:54.081+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-10-06T22:35:54.111+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ETL_DAG.load_to_snowflake manual__2025-10-06T22:35:34.925941+00:00 [queued]>
+[2025-10-06T22:35:54.126+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ETL_DAG.load_to_snowflake manual__2025-10-06T22:35:34.925941+00:00 [queued]>
+[2025-10-06T22:35:54.127+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2025-10-06T22:35:54.149+0000] {taskinstance.py:2888} INFO - Executing <Task(_PythonDecoratedOperator): load_to_snowflake> on 2025-10-06 22:35:34.925941+00:00
+[2025-10-06T22:35:54.165+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=1947) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-10-06T22:35:54.165+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'ETL_DAG', 'load_to_snowflake', 'manual__2025-10-06T22:35:34.925941+00:00', '--job-id', '141', '--raw', '--subdir', 'DAGS_FOLDER/lab1.py', '--cfg-path', '/tmp/tmpz8nknza4']
+[2025-10-06T22:35:54.167+0000] {standard_task_runner.py:72} INFO - Started process 1950 to run task
+[2025-10-06T22:35:54.168+0000] {standard_task_runner.py:105} INFO - Job 141: Subtask load_to_snowflake
+[2025-10-06T22:35:54.244+0000] {task_command.py:467} INFO - Running <TaskInstance: ETL_DAG.load_to_snowflake manual__2025-10-06T22:35:34.925941+00:00 [running]> on host c1f8128106e6
+[2025-10-06T22:35:54.422+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='ETL_DAG' AIRFLOW_CTX_TASK_ID='load_to_snowflake' AIRFLOW_CTX_EXECUTION_DATE='2025-10-06T22:35:34.925941+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-10-06T22:35:34.925941+00:00'
+[2025-10-06T22:35:54.424+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-10-06T22:35:54.979+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-10-06T22:35:55.121+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-10-06T22:35:55.320+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-10-06T22:35:55.425+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-10-06T22:42:04.621+0000] {job.py:229} INFO - Heartbeat recovered after 141.93 seconds
+[2025-10-06T22:43:17.964+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-10-06T22:43:17.968+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-10-06T22:43:18.008+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-10-06T22:43:18.010+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=ETL_DAG, task_id=load_to_snowflake, run_id=manual__2025-10-06T22:35:34.925941+00:00, execution_date=20251006T223534, start_date=20251006T223554, end_date=20251006T224318
+[2025-10-06T22:43:18.089+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-10-06T22:43:18.131+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-10-06T22:43:18.134+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
