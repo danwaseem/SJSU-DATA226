@@ -1,0 +1,29 @@
+[2025-10-28T19:30:55.659+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-10-28T19:30:55.736+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ETL_Import_User_Session_Tables.create_tables manual__2025-10-28T19:30:48.890361+00:00 [queued]>
+[2025-10-28T19:30:55.904+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ETL_Import_User_Session_Tables.create_tables manual__2025-10-28T19:30:48.890361+00:00 [queued]>
+[2025-10-28T19:30:55.906+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2025-10-28T19:30:55.963+0000] {taskinstance.py:2888} INFO - Executing <Task(_PythonDecoratedOperator): create_tables> on 2025-10-28 19:30:48.890361+00:00
+[2025-10-28T19:30:56.005+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=548) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-10-28T19:30:55.997+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'ETL_Import_User_Session_Tables', 'create_tables', 'manual__2025-10-28T19:30:48.890361+00:00', '--job-id', '172', '--raw', '--subdir', 'DAGS_FOLDER/ETL_Import_Tables.py', '--cfg-path', '/tmp/tmptu4o1gc3']
+[2025-10-28T19:30:56.010+0000] {standard_task_runner.py:105} INFO - Job 172: Subtask create_tables
+[2025-10-28T19:30:56.009+0000] {standard_task_runner.py:72} INFO - Started process 551 to run task
+[2025-10-28T19:30:56.679+0000] {task_command.py:467} INFO - Running <TaskInstance: ETL_Import_User_Session_Tables.create_tables manual__2025-10-28T19:30:48.890361+00:00 [running]> on host f515708a0f95
+[2025-10-28T19:30:57.134+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='ETL_Import_User_Session_Tables' AIRFLOW_CTX_TASK_ID='create_tables' AIRFLOW_CTX_EXECUTION_DATE='2025-10-28T19:30:48.890361+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-10-28T19:30:48.890361+00:00'
+[2025-10-28T19:30:57.139+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-10-28T19:30:57.170+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-10-28T19:30:57.173+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.10.14-linuxkit-x86_64-with-glibc2.36
+[2025-10-28T19:30:57.175+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-10-28T19:30:57.178+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-10-28T19:30:58.771+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-10-28T19:30:58.779+0000] {ETL_Import_Tables.py:24} INFO - Creating user_session_channel table...
+[2025-10-28T19:30:59.321+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-10-28T19:30:59.323+0000] {ETL_Import_Tables.py:33} INFO - Creating session_timestamp table...
+[2025-10-28T19:30:59.787+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-10-28T19:30:59.905+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-10-28T19:30:59.907+0000] {ETL_Import_Tables.py:42} INFO - Tables created successfully
+[2025-10-28T19:30:59.911+0000] {python.py:240} INFO - Done. Returned value was: Tables created
+[2025-10-28T19:31:00.020+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-10-28T19:31:00.040+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=ETL_Import_User_Session_Tables, task_id=create_tables, run_id=manual__2025-10-28T19:30:48.890361+00:00, execution_date=20251028T193048, start_date=20251028T193055, end_date=20251028T193100
+[2025-10-28T19:31:00.167+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-10-28T19:31:00.224+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-10-28T19:31:00.227+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

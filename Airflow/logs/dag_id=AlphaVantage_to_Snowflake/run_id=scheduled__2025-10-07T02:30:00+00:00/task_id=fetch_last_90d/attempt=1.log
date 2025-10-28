@@ -1,0 +1,80 @@
+[2025-10-28T19:27:27.166+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-10-28T19:27:27.307+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: AlphaVantage_to_Snowflake.fetch_last_90d scheduled__2025-10-07T02:30:00+00:00 [queued]>
+[2025-10-28T19:27:27.360+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: AlphaVantage_to_Snowflake.fetch_last_90d scheduled__2025-10-07T02:30:00+00:00 [queued]>
+[2025-10-28T19:27:27.364+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2025-10-28T19:27:27.463+0000] {taskinstance.py:2888} INFO - Executing <Task(_PythonDecoratedOperator): fetch_last_90d> on 2025-10-07 02:30:00+00:00
+[2025-10-28T19:27:27.554+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=264) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-10-28T19:27:27.554+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'AlphaVantage_to_Snowflake', 'fetch_last_90d', 'scheduled__2025-10-07T02:30:00+00:00', '--job-id', '157', '--raw', '--subdir', 'DAGS_FOLDER/hw5_final.py', '--cfg-path', '/tmp/tmp3h_dicad']
+[2025-10-28T19:27:27.577+0000] {standard_task_runner.py:105} INFO - Job 157: Subtask fetch_last_90d
+[2025-10-28T19:27:27.577+0000] {standard_task_runner.py:72} INFO - Started process 310 to run task
+[2025-10-28T19:27:28.027+0000] {task_command.py:467} INFO - Running <TaskInstance: AlphaVantage_to_Snowflake.fetch_last_90d scheduled__2025-10-07T02:30:00+00:00 [running]> on host f515708a0f95
+[2025-10-28T19:27:28.806+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='AlphaVantage_to_Snowflake' AIRFLOW_CTX_TASK_ID='fetch_last_90d' AIRFLOW_CTX_EXECUTION_DATE='2025-10-07T02:30:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-10-07T02:30:00+00:00'
+[2025-10-28T19:27:28.810+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-10-28T19:27:29.259+0000] {python.py:240} INFO - Done. Returned value was: [{'1. open': '341.0200', '2. high': '342.7299', '3. low': '338.0800', '4. close': '342.4900', '5. volume': '1137872', 'date': '2025-10-27'}, {'1. open': '347.0100', '2. high': '349.0250', '3. low': '340.0400', '4. close': '342.3500', '5. volume': '1318327', 'date': '2025-10-24'}, {'1. open': '338.6600', '2. high': '348.6800', '3. low': '335.1000', '4. close': '346.2800', '5. volume': '2493856', 'date': '2025-10-23'}, {'1. open': '346.9800', '2. high': '348.2600', '3. low': '337.9100', '4. close': '345.2100', '5. volume': '3057227', 'date': '2025-10-22'}, {'1. open': '344.7000', '2. high': '354.5800', '3. low': '337.0050', '4. close': '349.7500', '5. volume': '4062121', 'date': '2025-10-21'}, {'1. open': '348.7700', '2. high': '355.7879', '3. low': '347.6150', '4. close': '354.0700', '5. volume': '1946891', 'date': '2025-10-20'}, {'1. open': '348.5400', '2. high': '351.2100', '3. low': '345.9300', '4. close': '348.7700', '5. volume': '1440079', 'date': '2025-10-17'}, {'1. open': '347.7300', '2. high': '351.5500', '3. low': '346.9900', '4. close': '348.1800', '5. volume': '1162452', 'date': '2025-10-16'}, {'1. open': '347.2100', '2. high': '351.2800', '3. low': '342.7300', '4. close': '349.4900', '5. volume': '1764692', 'date': '2025-10-15'}, {'1. open': '345.1200', '2. high': '351.4300', '3. low': '344.3678', '4. close': '350.4800', '5. volume': '1638332', 'date': '2025-10-14'}, {'1. open': '351.1500', '2. high': '355.2900', '3. low': '350.4801', '4. close': '351.4200', '5. volume': '1173599', 'date': '2025-10-13'}, {'1. open': '360.2250', '2. high': '361.6400', '3. low': '352.0300', '4. close': '353.2400', '5. volume': '1768968', 'date': '2025-10-10'}, {'1. open': '363.9000', '2. high': '364.8700', '3. low': '358.1050', '4. close': '358.1300', '5. volume': '1291684', 'date': '2025-10-09'}, {'1. open': '358.1100', '2. high': '364.8300', '3. low': '357.5000', '4. close': '362.3400', '5. volume': '1834147', 'date': '2025-10-08'}, {'1. open': '353.9100', '2. high': '359.2100', '3. low': '352.3450', '4. close': '357.4900', '5. volume': '1782183', 'date': '2025-10-07'}, {'1. open': '353.9100', '2. high': '355.2250', '3. low': '349.0561', '4. close': '349.9400', '5. volume': '1725369', 'date': '2025-10-06'}, {'1. open': '341.2800', '2. high': '357.0000', '3. low': '341.0900', '4. close': '350.5000', '5. volume': '2683073', 'date': '2025-10-03'}, {'1. open': '329.0000', '2. high': '341.3900', '3. low': '328.9000', '4. close': '340.2400', '5. volume': '2182141', 'date': '2025-10-02'}, {'1. open': '324.0300', '2. high': '332.7700', '3. low': '323.0600', '4. close': '332.6600', '5. volume': '2128508', 'date': '2025-10-01'}, {'1. open': '319.2100', '2. high': '325.2210', '3. low': '317.2200', '4. close': '323.1200', '5. volume': '1854874', 'date': '2025-09-30'}, {'1. open': '318.3100', '2. high': '321.6300', '3. low': '316.0100', '4. close': '319.6900', '5. volume': '1139336', 'date': '2025-09-29'}, {'1. open': '319.3500', '2. high': '320.1724', '3. low': '316.2801', '4. close': '318.6100', '5. volume': '1482009', 'date': '2025-09-26'}, {'1. open': '326.0000', '2. high': '328.0400', '3. low': '315.5200', '4. close': '316.7000', '5. volume': '1860727', 'date': '2025-09-25'}, {'1. open': '324.6100', '2. high': '329.0500', '3. low': '319.8500', '4. close': '326.3800', '5. volume': '2096779', 'date': '2025-09-24'}, {'1. open': '317.2750', '2. high': '324.9100', '3. low': '317.2750', '4. close': '323.7300', '5. volume': '2118644', 'date': '2025-09-23'}, {'1. open': '311.9800', '2. high': '318.9700', '3. low': '311.0000', '4. close': '317.8900', '5. volume': '1456336', 'date': '2025-09-22'}, {'1. open': '316.8200', '2. high': '318.2100', '3. low': '313.4000', '4. close': '313.7100', '5. volume': '3117579', 'date': '2025-09-19'}, {'1. open': '309.2300', '2. high': '316.5000', '3. low': '307.9650', '4. close': '315.7700', '5. volume': '2310141', 'date': '2025-09-18'}, {'1. open': '311.5000', '2. high': '315.7900', '3. low': '307.1800', '4. close': '308.4800', '5. volume': '1621309', 'date': '2025-09-17'}, {'1. open': '307.6900', '2. high': '311.3300', '3. low': '304.3303', '4. close': '310.0000', '5. volume': '2068117', 'date': '2025-09-16'}, {'1. open': '311.8000', '2. high': '313.4600', '3. low': '306.0000', '4. close': '306.9100', '5. volume': '2001778', 'date': '2025-09-15'}, {'1. open': '317.4200', '2. high': '319.2400', '3. low': '311.3400', '4. close': '311.7600', '5. volume': '1503394', 'date': '2025-09-12'}, {'1. open': '314.0100', '2. high': '317.6000', '3. low': '311.1350', '4. close': '314.8900', '5. volume': '3594533', 'date': '2025-09-11'}, {'1. open': '310.2200', '2. high': '312.8138', '3. low': '304.6300', '4. close': '306.7500', '5. volume': '1723812', 'date': '2025-09-10'}, {'1. open': '310.5500', '2. high': '316.8750', '3. low': '309.3000', '4. close': '315.0900', '5. volume': '1927036', 'date': '2025-09-09'}, {'1. open': '315.6200', '2. high': '318.1250', '3. low': '306.6966', '4. close': '308.1600', '5. volume': '2006243', 'date': '2025-09-08'}, {'1. open': '308.5000', '2. high': '315.2674', '3. low': '304.1600', '4. close': '313.6400', '5. volume': '1862268', 'date': '2025-09-05'}, {'1. open': '308.6000', '2. high': '313.8500', '3. low': '306.3750', '4. close': '308.0500', '5. volume': '2826948', 'date': '2025-09-04'}, {'1. open': '319.6600', '2. high': '323.9550', '3. low': '317.4600', '4. close': '321.5900', '5. volume': '1638639', 'date': '2025-09-03'}, {'1. open': '319.4900', '2. high': '325.6550', '3. low': '317.7500', '4. close': '322.3300', '5. volume': '1950206', 'date': '2025-09-02'}, {'1. open': '310.7400', '2. high': '320.1000', '3. low': '310.4450', '4. close': '318.6500', '5. volume': '3115375', 'date': '2025-08-29'}, {'1. open': '311.1500', '2. high': '311.1750', '3. low': '305.3400', '4. close': '310.4100', '5. volume': '1193747', 'date': '2025-08-28'}, {'1. open': '309.4800', '2. high': '312.5250', '3. low': '306.8500', '4. close': '309.8100', '5. volume': '1463037', 'date': '2025-08-27'}, {'1. open': '312.4300', '2. high': '313.8400', '3. low': '307.6000', '4. close': '310.0300', '5. volume': '1843693', 'date': '2025-08-26'}, {'1. open': '316.3100', '2. high': '317.0600', '3. low': '312.6250', '4. close': '314.0000', '5. volume': '1239133', 'date': '2025-08-25'}, {'1. open': '312.6600', '2. high': '319.2200', '3. low': '312.5450', '4. close': '316.5500', '5. volume': '2961618', 'date': '2025-08-22'}, {'1. open': '310.0000', '2. high': '313.6300', '3. low': '308.6100', '4. close': '309.6000', '5. volume': '1593528', 'date': '2025-08-21'}, {'1. open': '312.6100', '2. high': '316.8200', '3. low': '309.8400', '4. close': '310.0000', '5. volume': '2135268', 'date': '2025-08-20'}, {'1. open': '310.2700', '2. high': '315.9900', '3. low': '308.5300', '4. close': '312.0000', '5. volume': '2644220', 'date': '2025-08-19'}, {'1. open': '313.0000', '2. high': '316.5900', '3. low': '309.2300', '4. close': '309.3200', '5. volume': '2509279', 'date': '2025-08-18'}, {'1. open': '311.0000', '2. high': '312.0000', '3. low': '304.0955', '4. close': '309.5700', '5. volume': '3415622', 'date': '2025-08-15'}, {'1. open': '294.1400', '2. high': '296.9200', '3. low': '290.4700', '4. close': '295.4300', '5. volume': '2152973', 'date': '2025-08-14'}, {'1. open': '294.0900', '2. high': '298.9100', '3. low': '291.5700', '4. close': '294.4300', '5. volume': '2471475', 'date': '2025-08-13'}, {'1. open': '291.1700', '2. high': '293.4000', '3. low': '289.7200', '4. close': '292.4800', '5. volume': '1524315', 'date': '2025-08-12'}, {'1. open': '294.9900', '2. high': '299.4468', '3. low': '289.9700', '4. close': '290.7900', '5. volume': '1650213', 'date': '2025-08-11'}, {'1. open': '283.7200', '2. high': '295.1800', '3. low': '283.7200', '4. close': '293.9900', '5. volume': '2405187', 'date': '2025-08-08'}, {'1. open': '278.9200', '2. high': '284.5500', '3. low': '278.2000', '4. close': '283.4800', '5. volume': '2237438', 'date': '2025-08-07'}, {'1. open': '276.0100', '2. high': '280.7950', '3. low': '273.7100', '4. close': '276.3000', '5. volume': '2486971', 'date': '2025-08-06'}, {'1. open': '274.3100', '2. high': '282.7500', '3. low': '274.2800', '4. close': '276.4100', '5. volume': '2012955', 'date': '2025-08-05'}, {'1. open': '274.4000', '2. high': '280.4600', '3. low': '274.0400', '4. close': '274.9300', '5. volume': '3387400', 'date': '2025-08-04'}, {'1. open': '286.0000', '2. high': '288.0900', '3. low': '273.8400', '4. close': '274.6600', '5. volume': '3382622', 'date': '2025-08-01'}, {'1. open': '290.1400', '2. high': '293.0000', '3. low': '282.6500', '4. close': '283.0800', '5. volume': '3261397', 'date': '2025-07-31'}, {'1. open': '290.9400', '2. high': '294.6000', '3. low': '286.2200', '4. close': '293.5500', '5. volume': '2133238', 'date': '2025-07-30'}]
+[2025-10-28T19:27:29.471+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-10-28T19:27:29.473+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=AlphaVantage_to_Snowflake, task_id=fetch_last_90d, run_id=scheduled__2025-10-07T02:30:00+00:00, execution_date=20251007T023000, start_date=20251028T192727, end_date=20251028T192729
+[2025-10-28T19:27:29.540+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-10-28T19:27:29.706+0000] {taskinstance.py:3925} ERROR - Error scheduling downstream tasks. Skipping it as this is entirely optional optimisation. There might be various reasons for it, please take a look at the stack trace to figure out if the root cause can be diagnosed and fixed. See the issue https://github.com/apache/***/issues/39717 for details and an example problem. If you would like to get help in solving root cause, open discussion with all details with your managed service support or in Airflow repository.
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3921, in schedule_downstream_tasks
+    return TaskInstance._schedule_downstream_tasks(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 94, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3870, in _schedule_downstream_tasks
+    partial_dag = task.dag.partial_subset(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dag.py", line 2664, in partial_subset
+    t.task_id: _deepcopy_task(t)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dag.py", line 2661, in _deepcopy_task
+    return copy.deepcopy(t, memo)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/copy.py", line 143, in deepcopy
+    y = copier(memo)
+        ^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 1388, in __deepcopy__
+    setattr(result, k, copy.deepcopy(v, memo))
+                       ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/copy.py", line 136, in deepcopy
+    y = copier(x, memo)
+        ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/copy.py", line 221, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+                             ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/copy.py", line 136, in deepcopy
+    y = copier(x, memo)
+        ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/copy.py", line 201, in _deepcopy_tuple
+    y = [deepcopy(a, memo) for a in x]
+         ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/copy.py", line 162, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/copy.py", line 259, in _reconstruct
+    state = deepcopy(state, memo)
+            ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/copy.py", line 136, in deepcopy
+    y = copier(x, memo)
+        ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/copy.py", line 221, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+                             ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/copy.py", line 162, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/copy.py", line 259, in _reconstruct
+    state = deepcopy(state, memo)
+            ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/copy.py", line 136, in deepcopy
+    y = copier(x, memo)
+        ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/copy.py", line 221, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+                             ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/copy.py", line 151, in deepcopy
+    rv = reductor(4)
+         ^^^^^^^^^^^
+TypeError: cannot pickle '_thread.lock' object
+[2025-10-28T19:27:29.739+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

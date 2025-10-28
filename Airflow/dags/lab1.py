@@ -310,7 +310,7 @@ with DAG(
 
     DB="USER_DB_HEDGEHOG"
     tickers = ["META", "AMZN"]
-    target_table = f"{DB}.RAW.MARKET_DATA_LAB"
+    target_table = f"{DB}.RAW.MARKET_DATA"
     view_name = "MARKET_DATA_v1"
     model_name = "stock_price"
     forecast_table = f"{DB}.RAW.MARKET_DATA_FORECAST_RAW"

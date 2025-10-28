@@ -1,0 +1,701 @@
+[2025-10-28T19:27:20.073+0000] {processor.py:186} INFO - Started process (PID=292) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:27:20.088+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:27:20.278+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:27:20.277+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:27:20.493+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:27:22.314+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:27:22.284+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:ETL_Import_User_Session_Tables
+[2025-10-28T19:27:22.362+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:27:22.361+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:ETL_Import_User_Session_Tables
+[2025-10-28T19:27:22.399+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:27:22.399+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:ETL_Import_User_Session_Tables
+[2025-10-28T19:27:22.422+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:27:22.422+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:ETL_Import_User_Session_Tables
+[2025-10-28T19:27:22.468+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:27:22.467+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:ETL_Import_User_Session_Tables
+[2025-10-28T19:27:22.509+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:27:22.509+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:ETL_Import_User_Session_Tables
+[2025-10-28T19:27:22.545+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:27:22.544+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:ETL_Import_User_Session_Tables
+[2025-10-28T19:27:22.551+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:27:22.550+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:27:22.733+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:27:22.721+0000] {dag.py:3252} INFO - Creating ORM DAG for ETL_Import_User_Session_Tables
+[2025-10-28T19:27:22.927+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:27:22.904+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:27:23.151+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 3.136 seconds
+[2025-10-28T19:27:53.430+0000] {processor.py:186} INFO - Started process (PID=368) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:27:53.432+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:27:53.439+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:27:53.437+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:27:53.526+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:27:53.605+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:27:53.604+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:27:53.678+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:27:53.677+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:27:53.718+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.302 seconds
+[2025-10-28T19:28:23.933+0000] {processor.py:186} INFO - Started process (PID=403) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:28:23.937+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:28:23.947+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:28:23.946+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:28:23.980+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:28:24.067+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:28:24.063+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:28:24.136+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:28:24.135+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:28:24.173+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.253 seconds
+[2025-10-28T19:28:54.722+0000] {processor.py:186} INFO - Started process (PID=441) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:28:54.727+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:28:54.734+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:28:54.734+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:28:54.770+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:28:54.865+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:28:54.865+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:28:54.941+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:28:54.940+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:28:55.003+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.293 seconds
+[2025-10-28T19:29:25.476+0000] {processor.py:186} INFO - Started process (PID=467) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:29:25.479+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:29:25.486+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:29:25.485+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:29:25.516+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:29:25.581+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:29:25.579+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:29:25.657+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:29:25.657+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:29:25.712+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.252 seconds
+[2025-10-28T19:29:57.021+0000] {processor.py:186} INFO - Started process (PID=493) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:29:57.030+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:29:57.046+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:29:57.045+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:29:57.150+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:29:57.350+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:29:57.349+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:29:57.510+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:29:57.509+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:29:57.603+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.629 seconds
+[2025-10-28T19:30:28.272+0000] {processor.py:186} INFO - Started process (PID=530) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:30:28.275+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:30:28.282+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:30:28.281+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:30:28.314+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:30:28.448+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:30:28.446+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:30:28.553+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:30:28.552+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:30:28.596+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.376 seconds
+[2025-10-28T19:30:58.805+0000] {processor.py:186} INFO - Started process (PID=556) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:30:58.830+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:30:58.848+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:30:58.844+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:30:58.942+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:30:59.308+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:30:59.287+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:30:59.617+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:30:59.617+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:30:59.885+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 1.117 seconds
+[2025-10-28T19:31:30.657+0000] {processor.py:186} INFO - Started process (PID=596) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:31:30.661+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:31:30.667+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:31:30.666+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:31:30.700+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:31:30.859+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:31:30.855+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:31:31.017+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:31:31.016+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:31:31.085+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.443 seconds
+[2025-10-28T19:32:01.619+0000] {processor.py:186} INFO - Started process (PID=622) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:32:01.621+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:32:01.626+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:32:01.626+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:32:01.659+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:32:01.726+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:32:01.725+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:32:01.794+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:32:01.793+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:32:01.842+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.234 seconds
+[2025-10-28T19:32:32.481+0000] {processor.py:186} INFO - Started process (PID=648) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:32:32.490+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:32:32.509+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:32:32.508+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:32:32.560+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:32:32.643+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:32:32.641+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:32:32.705+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:32:32.705+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:32:32.758+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.334 seconds
+[2025-10-28T19:33:03.120+0000] {processor.py:186} INFO - Started process (PID=673) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:33:03.124+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:33:03.131+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:33:03.130+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:33:03.172+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:33:03.260+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:33:03.259+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:33:03.340+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:33:03.340+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:33:03.398+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.291 seconds
+[2025-10-28T19:33:33.612+0000] {processor.py:186} INFO - Started process (PID=699) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:33:33.613+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:33:33.619+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:33:33.618+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:33:33.665+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:33:33.801+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:33:33.800+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:33:33.900+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:33:33.900+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:33:33.940+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.343 seconds
+[2025-10-28T19:34:04.508+0000] {processor.py:186} INFO - Started process (PID=724) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:34:04.518+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:34:04.558+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:34:04.552+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:34:04.598+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:34:04.741+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:34:04.740+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:34:04.852+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:34:04.851+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:34:04.921+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.482 seconds
+[2025-10-28T19:34:35.406+0000] {processor.py:186} INFO - Started process (PID=751) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:34:35.409+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:34:35.413+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:34:35.413+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:34:35.465+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:34:35.556+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:34:35.555+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:34:35.616+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:34:35.616+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:34:35.661+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.284 seconds
+[2025-10-28T19:35:05.756+0000] {processor.py:186} INFO - Started process (PID=777) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:35:05.758+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:35:05.764+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:35:05.764+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:35:05.808+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:35:05.973+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:35:05.971+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:35:06.076+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:35:06.076+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:35:06.212+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.473 seconds
+[2025-10-28T19:35:36.828+0000] {processor.py:186} INFO - Started process (PID=803) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:35:36.832+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:35:36.842+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:35:36.840+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:35:36.915+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:35:37.158+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:35:37.157+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:35:37.519+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:35:37.517+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:35:38.127+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 1.337 seconds
+[2025-10-28T19:36:08.870+0000] {processor.py:186} INFO - Started process (PID=834) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:36:08.873+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:36:08.881+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:36:08.880+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:36:08.932+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:36:09.045+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:36:09.044+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:36:09.116+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:36:09.115+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:36:09.170+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.326 seconds
+[2025-10-28T19:36:39.817+0000] {processor.py:186} INFO - Started process (PID=860) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:36:39.821+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:36:39.827+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:36:39.825+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:36:39.864+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:36:39.942+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:36:39.941+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:36:40.023+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:36:40.023+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:36:40.090+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.292 seconds
+[2025-10-28T19:37:10.636+0000] {processor.py:186} INFO - Started process (PID=881) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:37:10.639+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:37:10.644+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:37:10.643+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:37:10.680+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:37:10.783+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:37:10.782+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:37:10.886+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:37:10.885+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:37:10.944+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.321 seconds
+[2025-10-28T19:37:41.540+0000] {processor.py:186} INFO - Started process (PID=914) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:37:41.543+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:37:41.558+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:37:41.557+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:37:41.618+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:37:41.729+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:37:41.727+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:37:41.834+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:37:41.834+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:37:41.887+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.394 seconds
+[2025-10-28T19:38:12.663+0000] {processor.py:186} INFO - Started process (PID=940) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:38:12.666+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:38:12.672+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:38:12.672+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:38:12.728+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:38:12.813+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:38:12.812+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:38:12.879+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:38:12.879+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:38:12.925+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.278 seconds
+[2025-10-28T19:38:43.606+0000] {processor.py:186} INFO - Started process (PID=965) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:38:43.611+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:38:43.779+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:38:43.733+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:38:44.023+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:38:44.766+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:38:44.760+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:38:45.301+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:38:45.299+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:38:45.393+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 1.835 seconds
+[2025-10-28T19:39:16.223+0000] {processor.py:186} INFO - Started process (PID=993) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:39:16.228+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:39:16.238+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:39:16.237+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:39:16.409+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:39:16.601+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:39:16.598+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:39:16.803+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:39:16.802+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:39:16.853+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.766 seconds
+[2025-10-28T19:39:46.977+0000] {processor.py:186} INFO - Started process (PID=1019) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:39:46.980+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:39:46.987+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:39:46.986+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:39:47.052+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:39:47.161+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:39:47.160+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:39:47.277+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:39:47.277+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:39:47.327+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.363 seconds
+[2025-10-28T19:40:22.725+0000] {processor.py:186} INFO - Started process (PID=1043) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:40:22.733+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:40:22.771+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:40:22.767+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:40:22.873+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:40:22.967+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:40:22.966+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:40:23.149+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:40:23.146+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:40:23.242+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.575 seconds
+[2025-10-28T19:40:53.713+0000] {processor.py:186} INFO - Started process (PID=1064) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:40:53.719+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:40:53.727+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:40:53.727+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:40:53.778+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:40:53.920+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:40:53.919+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:40:53.995+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:40:53.994+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:40:54.064+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.382 seconds
+[2025-10-28T19:41:24.408+0000] {processor.py:186} INFO - Started process (PID=1087) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:41:24.412+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:41:24.420+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:41:24.419+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:41:24.478+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:41:24.567+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:41:24.566+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:41:24.641+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:41:24.641+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:41:24.688+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.302 seconds
+[2025-10-28T19:41:55.022+0000] {processor.py:186} INFO - Started process (PID=1113) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:41:55.024+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:41:55.029+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:41:55.028+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:41:55.054+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:41:55.112+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:41:55.111+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:41:55.165+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:41:55.165+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:41:55.207+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.197 seconds
+[2025-10-28T19:42:25.941+0000] {processor.py:186} INFO - Started process (PID=1139) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:42:25.943+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:42:25.949+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:42:25.948+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:42:25.984+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:42:26.126+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:42:26.124+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:42:26.199+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:42:26.197+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:42:26.253+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.325 seconds
+[2025-10-28T19:42:56.471+0000] {processor.py:186} INFO - Started process (PID=1165) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:42:56.473+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:42:56.479+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:42:56.478+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:42:56.503+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:42:56.553+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:42:56.552+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:42:56.596+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:42:56.595+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:42:56.633+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.173 seconds
+[2025-10-28T19:43:27.086+0000] {processor.py:186} INFO - Started process (PID=1191) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:43:27.095+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:43:27.106+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:43:27.104+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:43:27.199+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:43:27.370+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:43:27.369+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:43:27.602+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:43:27.601+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:43:27.695+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.648 seconds
+[2025-10-28T19:43:57.972+0000] {processor.py:186} INFO - Started process (PID=1218) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:43:57.979+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:43:57.999+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:43:57.998+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:43:58.085+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:43:58.227+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:43:58.225+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:43:58.371+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:43:58.370+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:43:58.464+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.540 seconds
+[2025-10-28T19:44:28.884+0000] {processor.py:186} INFO - Started process (PID=1242) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:44:28.889+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:44:28.897+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:44:28.896+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:44:28.934+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:44:29.005+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:44:29.003+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:44:29.083+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:44:29.083+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:44:29.165+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.301 seconds
+[2025-10-28T19:44:59.674+0000] {processor.py:186} INFO - Started process (PID=1265) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:44:59.676+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:44:59.681+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:44:59.680+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:44:59.708+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:44:59.761+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:44:59.761+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:44:59.809+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:44:59.808+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:44:59.842+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.180 seconds
+[2025-10-28T19:45:30.343+0000] {processor.py:186} INFO - Started process (PID=1292) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:45:30.346+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:45:30.358+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:45:30.357+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:45:30.417+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:45:30.531+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:45:30.529+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:45:30.689+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:45:30.686+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:45:30.846+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.532 seconds
+[2025-10-28T19:46:01.254+0000] {processor.py:186} INFO - Started process (PID=1318) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:46:01.261+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:46:01.280+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:46:01.278+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:46:01.395+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:46:01.595+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:46:01.593+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:46:01.940+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:46:01.939+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:46:02.043+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.827 seconds
+[2025-10-28T19:46:32.519+0000] {processor.py:186} INFO - Started process (PID=1344) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:46:32.524+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:46:32.529+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:46:32.528+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:46:32.585+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:46:32.684+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:46:32.682+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:46:32.812+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:46:32.811+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:46:32.885+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.392 seconds
+[2025-10-28T19:47:03.691+0000] {processor.py:186} INFO - Started process (PID=1370) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:47:03.698+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:47:03.707+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:47:03.706+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:47:03.746+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:47:03.905+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:47:03.904+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:47:04.024+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:47:04.023+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:47:04.079+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.406 seconds
+[2025-10-28T19:47:34.246+0000] {processor.py:186} INFO - Started process (PID=1396) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:47:34.253+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:47:34.265+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:47:34.264+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:47:34.332+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:47:34.501+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:47:34.497+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:47:34.637+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:47:34.637+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:47:34.781+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.575 seconds
+[2025-10-28T19:48:05.179+0000] {processor.py:186} INFO - Started process (PID=1422) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:48:05.181+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:48:05.186+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:48:05.185+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:48:05.210+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:48:05.273+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:48:05.271+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:48:05.346+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:48:05.345+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:48:05.393+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.228 seconds
+[2025-10-28T19:48:35.750+0000] {processor.py:186} INFO - Started process (PID=1446) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:48:35.754+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:48:35.772+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:48:35.770+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:48:35.835+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:48:36.028+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:48:36.018+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:48:36.471+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:48:36.470+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:48:36.597+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.894 seconds
+[2025-10-28T19:49:07.221+0000] {processor.py:186} INFO - Started process (PID=1469) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:49:07.225+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:49:07.232+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:49:07.231+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:49:07.297+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:49:07.420+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:49:07.417+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:49:07.523+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:49:07.522+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:49:07.600+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.405 seconds
+[2025-10-28T19:49:37.752+0000] {processor.py:186} INFO - Started process (PID=1495) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:49:37.755+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:49:37.763+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:49:37.762+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:49:37.804+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:49:37.893+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:49:37.891+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:49:37.979+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:49:37.978+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:49:38.033+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.301 seconds
+[2025-10-28T19:50:08.346+0000] {processor.py:186} INFO - Started process (PID=1521) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:50:08.348+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:50:08.360+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:50:08.359+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:50:08.401+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:50:08.578+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:50:08.577+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:50:08.747+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:50:08.746+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:50:08.841+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.515 seconds
+[2025-10-28T19:50:39.149+0000] {processor.py:186} INFO - Started process (PID=1547) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:50:39.151+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:50:39.158+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:50:39.157+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:50:39.438+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:50:39.522+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:50:39.521+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:50:39.592+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:50:39.591+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:50:39.636+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.502 seconds
+[2025-10-28T19:51:10.466+0000] {processor.py:186} INFO - Started process (PID=1573) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:51:10.468+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:51:10.476+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:51:10.474+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:51:10.516+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:51:10.618+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:51:10.616+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:51:10.712+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:51:10.711+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:51:10.769+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.325 seconds
+[2025-10-28T19:51:41.103+0000] {processor.py:186} INFO - Started process (PID=1599) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:51:41.106+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:51:41.115+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:51:41.114+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:51:41.159+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:51:41.229+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:51:41.225+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:51:41.286+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:51:41.286+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:51:41.330+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.243 seconds
+[2025-10-28T19:52:12.018+0000] {processor.py:186} INFO - Started process (PID=1625) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:52:12.027+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:52:12.036+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:52:12.035+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:52:12.076+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:52:12.184+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:52:12.179+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:52:12.276+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:52:12.275+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:52:12.360+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.364 seconds
+[2025-10-28T19:52:42.543+0000] {processor.py:186} INFO - Started process (PID=1649) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:52:42.561+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:52:42.574+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:52:42.573+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:52:42.623+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:52:42.773+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:52:42.772+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:52:43.306+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:52:43.303+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:52:43.381+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.868 seconds
+[2025-10-28T19:53:13.874+0000] {processor.py:186} INFO - Started process (PID=1672) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:53:13.877+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:53:13.888+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:53:13.885+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:53:13.926+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:53:14.022+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:53:14.019+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:53:14.109+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:53:14.108+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:53:14.180+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.325 seconds
+[2025-10-28T19:53:44.848+0000] {processor.py:186} INFO - Started process (PID=1696) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:53:44.858+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:53:44.871+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:53:44.870+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:53:44.952+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:53:45.208+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:53:45.205+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:53:45.367+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:53:45.366+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:53:45.458+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.642 seconds
+[2025-10-28T19:54:15.704+0000] {processor.py:186} INFO - Started process (PID=1718) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:54:15.709+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:54:15.717+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:54:15.716+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:54:15.761+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:54:15.872+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:54:15.870+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:54:16.033+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:54:16.032+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:54:16.150+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.463 seconds
+[2025-10-28T19:54:46.475+0000] {processor.py:186} INFO - Started process (PID=1744) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:54:46.502+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:54:46.520+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:54:46.514+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:54:46.632+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:54:46.781+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:54:46.780+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:54:46.942+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:54:46.942+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:54:47.030+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.589 seconds
+[2025-10-28T19:55:17.239+0000] {processor.py:186} INFO - Started process (PID=1770) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:55:17.242+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:55:17.249+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:55:17.248+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:55:17.299+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:55:17.368+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:55:17.367+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:55:17.432+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:55:17.432+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:55:17.473+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.250 seconds
+[2025-10-28T19:55:48.479+0000] {processor.py:186} INFO - Started process (PID=1794) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:55:48.484+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:55:48.496+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:55:48.495+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:55:48.551+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:55:48.749+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:55:48.745+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:55:48.916+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:55:48.915+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:55:48.995+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.550 seconds
+[2025-10-28T19:56:19.321+0000] {processor.py:186} INFO - Started process (PID=1817) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:56:19.323+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:56:19.328+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:56:19.327+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:56:19.356+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:56:19.416+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:56:19.415+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:56:19.473+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:56:19.472+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:56:19.523+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.215 seconds
+[2025-10-28T19:56:50.156+0000] {processor.py:186} INFO - Started process (PID=1843) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:56:50.157+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:56:50.162+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:56:50.162+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:56:50.184+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:56:50.242+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:56:50.241+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:56:50.290+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:56:50.289+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:56:50.321+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.177 seconds
+[2025-10-28T19:57:20.796+0000] {processor.py:186} INFO - Started process (PID=1869) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:57:20.798+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:57:20.802+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:57:20.801+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:57:20.824+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:57:20.873+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:57:20.872+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:57:20.918+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:57:20.918+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:57:20.949+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.165 seconds
+[2025-10-28T19:57:51.200+0000] {processor.py:186} INFO - Started process (PID=1895) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:57:51.201+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:57:51.205+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:57:51.205+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:57:51.226+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:57:51.279+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:57:51.279+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:57:51.321+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:57:51.320+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:57:51.355+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.167 seconds
+[2025-10-28T19:58:21.844+0000] {processor.py:186} INFO - Started process (PID=1921) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:58:21.846+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:58:21.850+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:58:21.849+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:58:21.870+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:58:21.912+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:58:21.912+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:58:21.950+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:58:21.949+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:58:21.979+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.150 seconds
+[2025-10-28T19:58:52.543+0000] {processor.py:186} INFO - Started process (PID=1947) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:58:52.545+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:58:52.549+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:58:52.549+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:58:52.572+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:58:52.620+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:58:52.619+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:58:52.661+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:58:52.661+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:58:52.691+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.158 seconds
+[2025-10-28T19:59:23.199+0000] {processor.py:186} INFO - Started process (PID=1973) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:59:23.200+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:59:23.205+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:59:23.204+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:59:23.226+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:59:23.272+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:59:23.272+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:59:23.311+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:59:23.311+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:59:23.340+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.152 seconds
+[2025-10-28T19:59:53.812+0000] {processor.py:186} INFO - Started process (PID=1999) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:59:53.813+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T19:59:53.817+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:59:53.817+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:59:53.839+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T19:59:53.885+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:59:53.885+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T19:59:53.923+0000] {logging_mixin.py:190} INFO - [2025-10-28T19:59:53.923+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T19:59:53.955+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.155 seconds
+[2025-10-28T20:00:24.524+0000] {processor.py:186} INFO - Started process (PID=2025) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:00:24.525+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T20:00:24.530+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:00:24.530+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:00:24.552+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:00:24.596+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:00:24.595+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T20:00:24.635+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:00:24.634+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T20:00:24.665+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.153 seconds
+[2025-10-28T20:00:54.777+0000] {processor.py:186} INFO - Started process (PID=2051) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:00:54.778+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T20:00:54.782+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:00:54.782+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:00:54.803+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:00:54.853+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:00:54.852+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T20:00:54.893+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:00:54.893+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T20:00:54.923+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.157 seconds
+[2025-10-28T20:01:25.438+0000] {processor.py:186} INFO - Started process (PID=2077) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:01:25.440+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T20:01:25.444+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:01:25.444+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:01:25.465+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:01:25.509+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:01:25.508+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T20:01:25.547+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:01:25.546+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T20:01:25.578+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.152 seconds
+[2025-10-28T20:01:56.035+0000] {processor.py:186} INFO - Started process (PID=2103) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:01:56.036+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T20:01:56.041+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:01:56.040+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:01:56.065+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:01:56.110+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:01:56.109+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T20:01:56.149+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:01:56.148+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T20:01:56.178+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.154 seconds
+[2025-10-28T20:02:26.669+0000] {processor.py:186} INFO - Started process (PID=2127) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:02:26.672+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T20:02:26.678+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:02:26.677+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:02:26.716+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:02:26.806+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:02:26.805+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T20:02:26.861+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:02:26.861+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T20:02:26.891+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.236 seconds
+[2025-10-28T20:02:57.047+0000] {processor.py:186} INFO - Started process (PID=2150) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:02:57.049+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T20:02:57.054+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:02:57.053+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:02:57.079+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:02:57.126+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:02:57.125+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T20:02:57.171+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:02:57.170+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T20:02:57.208+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.174 seconds
+[2025-10-28T20:03:27.378+0000] {processor.py:186} INFO - Started process (PID=2176) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:03:27.379+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T20:03:27.384+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:03:27.384+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:03:27.408+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:03:27.461+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:03:27.460+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T20:03:27.511+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:03:27.510+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T20:03:27.544+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.179 seconds
+[2025-10-28T20:03:57.863+0000] {processor.py:186} INFO - Started process (PID=2202) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:03:57.864+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T20:03:57.869+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:03:57.868+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:03:57.890+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:03:57.933+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:03:57.933+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T20:03:57.972+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:03:57.972+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T20:03:58.003+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.151 seconds
+[2025-10-28T20:04:28.235+0000] {processor.py:186} INFO - Started process (PID=2228) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:04:28.236+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T20:04:28.239+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:04:28.239+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:04:28.256+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:04:28.294+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:04:28.293+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T20:04:28.328+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:04:28.327+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T20:04:28.360+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.133 seconds
+[2025-10-28T20:04:58.639+0000] {processor.py:186} INFO - Started process (PID=2254) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:04:58.640+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T20:04:58.644+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:04:58.644+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:04:58.667+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:04:58.709+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:04:58.709+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T20:04:58.747+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:04:58.747+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T20:04:58.779+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.151 seconds
+[2025-10-28T20:05:29.446+0000] {processor.py:186} INFO - Started process (PID=2280) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:05:29.448+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T20:05:29.452+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:05:29.452+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:05:29.481+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:05:29.539+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:05:29.536+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T20:05:29.592+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:05:29.591+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T20:05:29.625+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.191 seconds
+[2025-10-28T20:05:59.901+0000] {processor.py:186} INFO - Started process (PID=2306) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:05:59.902+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T20:05:59.907+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:05:59.906+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:05:59.928+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:05:59.973+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:05:59.972+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T20:06:00.014+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:06:00.014+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T20:06:00.051+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.162 seconds
+[2025-10-28T20:06:30.635+0000] {processor.py:186} INFO - Started process (PID=2332) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:06:30.639+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T20:06:30.645+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:06:30.644+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:06:30.671+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:06:30.727+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:06:30.726+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T20:06:30.772+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:06:30.772+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T20:06:30.805+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.188 seconds
+[2025-10-28T20:12:42.480+0000] {processor.py:186} INFO - Started process (PID=2344) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:12:42.520+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T20:12:42.636+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:12:42.629+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:12:42.882+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:12:43.208+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:12:43.206+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T20:12:43.423+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:12:43.415+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T20:12:43.602+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 1.254 seconds
+[2025-10-28T20:13:14.442+0000] {processor.py:186} INFO - Started process (PID=2372) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:13:14.446+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T20:13:14.452+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:13:14.451+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:13:14.485+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:13:14.551+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:13:14.550+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T20:13:14.596+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:13:14.595+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T20:13:14.632+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.206 seconds
+[2025-10-28T20:13:45.084+0000] {processor.py:186} INFO - Started process (PID=2397) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:13:45.087+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T20:13:45.092+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:13:45.092+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:13:45.125+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:13:45.200+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:13:45.199+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T20:13:45.250+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:13:45.250+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T20:13:45.288+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.216 seconds
+[2025-10-28T20:14:15.401+0000] {processor.py:186} INFO - Started process (PID=2423) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:14:15.404+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T20:14:15.411+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:14:15.410+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:14:15.450+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:14:15.539+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:14:15.538+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T20:14:15.620+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:14:15.619+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T20:14:15.671+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.285 seconds
+[2025-10-28T20:14:46.018+0000] {processor.py:186} INFO - Started process (PID=2449) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:14:46.020+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T20:14:46.027+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:14:46.026+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:14:46.057+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:14:46.118+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:14:46.117+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T20:14:46.173+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:14:46.173+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T20:14:46.218+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.213 seconds
+[2025-10-28T20:45:02.533+0000] {processor.py:186} INFO - Started process (PID=2480) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:45:02.535+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T20:45:02.542+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:45:02.541+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:45:02.564+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:45:02.700+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:45:02.699+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T20:45:02.772+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:45:02.771+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T20:45:02.827+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.306 seconds
+[2025-10-28T20:45:33.632+0000] {processor.py:186} INFO - Started process (PID=2507) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:45:33.636+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T20:45:33.652+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:45:33.650+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:45:33.710+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:45:33.929+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:45:33.927+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T20:45:34.123+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:45:34.121+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T20:45:34.269+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.679 seconds
+[2025-10-28T20:48:11.446+0000] {processor.py:186} INFO - Started process (PID=2530) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:48:11.463+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T20:48:11.537+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:48:11.533+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:48:11.785+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:48:11.951+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:48:11.950+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T20:48:12.023+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:48:12.023+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T20:48:12.079+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.736 seconds
+[2025-10-28T20:48:43.542+0000] {processor.py:186} INFO - Started process (PID=2557) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:48:43.544+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T20:48:43.551+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:48:43.549+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:48:43.581+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:48:43.677+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:48:43.676+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T20:48:43.811+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:48:43.810+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T20:48:43.983+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.464 seconds
+[2025-10-28T20:49:14.977+0000] {processor.py:186} INFO - Started process (PID=2580) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:49:14.978+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T20:49:14.983+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:49:14.982+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:49:15.000+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:49:15.055+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:49:15.055+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T20:49:15.097+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:49:15.097+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T20:49:15.131+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.167 seconds
+[2025-10-28T20:49:45.697+0000] {processor.py:186} INFO - Started process (PID=2606) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:49:45.699+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T20:49:45.705+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:49:45.704+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:49:45.725+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:49:45.781+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:49:45.781+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T20:49:45.836+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:49:45.836+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T20:49:45.880+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.196 seconds
+[2025-10-28T20:50:16.480+0000] {processor.py:186} INFO - Started process (PID=2632) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:50:16.481+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T20:50:16.485+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:50:16.485+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:50:16.500+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:50:16.550+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:50:16.550+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T20:50:16.612+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:50:16.612+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T20:50:16.663+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.194 seconds
+[2025-10-28T20:50:47.254+0000] {processor.py:186} INFO - Started process (PID=2658) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:50:47.257+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T20:50:47.262+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:50:47.261+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:50:47.281+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:50:47.335+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:50:47.334+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T20:50:47.379+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:50:47.379+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T20:50:47.411+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.175 seconds
+[2025-10-28T20:51:17.617+0000] {processor.py:186} INFO - Started process (PID=2684) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:51:17.620+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T20:51:17.626+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:51:17.625+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:51:17.643+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:51:17.703+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:51:17.702+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T20:51:17.757+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:51:17.757+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T20:51:17.810+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.206 seconds
+[2025-10-28T20:51:48.828+0000] {processor.py:186} INFO - Started process (PID=2710) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:51:48.830+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T20:51:48.839+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:51:48.838+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:51:48.862+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:51:48.923+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:51:48.923+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T20:51:48.976+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:51:48.976+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T20:51:49.021+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.208 seconds
+[2025-10-28T20:52:19.188+0000] {processor.py:186} INFO - Started process (PID=2736) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:52:19.191+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T20:52:19.195+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:52:19.195+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:52:19.214+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:52:19.270+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:52:19.270+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T20:52:19.313+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:52:19.312+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T20:52:19.349+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.174 seconds
+[2025-10-28T20:52:50.003+0000] {processor.py:186} INFO - Started process (PID=2762) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:52:50.005+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T20:52:50.012+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:52:50.011+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:52:50.035+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:52:50.325+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:52:50.324+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T20:52:50.397+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:52:50.396+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T20:52:50.455+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.469 seconds
+[2025-10-28T20:53:21.220+0000] {processor.py:186} INFO - Started process (PID=2788) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:53:21.222+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T20:53:21.227+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:53:21.226+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:53:21.250+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:53:21.322+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:53:21.321+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T20:53:21.401+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:53:21.400+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T20:53:21.443+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.245 seconds
+[2025-10-28T20:53:52.202+0000] {processor.py:186} INFO - Started process (PID=2814) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:53:52.204+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T20:53:52.208+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:53:52.208+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:53:52.224+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:53:52.273+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:53:52.272+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T20:53:52.312+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:53:52.311+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T20:53:52.343+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.153 seconds
+[2025-10-28T20:54:22.797+0000] {processor.py:186} INFO - Started process (PID=2840) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:54:22.798+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T20:54:22.803+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:54:22.802+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:54:22.821+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:54:22.891+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:54:22.891+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T20:54:22.986+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:54:22.986+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T20:54:23.040+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.256 seconds
+[2025-10-28T20:54:53.133+0000] {processor.py:186} INFO - Started process (PID=2866) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:54:53.135+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T20:54:53.143+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:54:53.142+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:54:53.167+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:54:53.269+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:54:53.269+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T20:54:53.350+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:54:53.350+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T20:54:53.398+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.284 seconds
+[2025-10-28T20:55:23.851+0000] {processor.py:186} INFO - Started process (PID=2887) to work on /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:55:23.854+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Import_Tables.py for tasks to queue
+[2025-10-28T20:55:23.862+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:55:23.861+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:55:23.891+0000] {processor.py:925} INFO - DAG(s) 'ETL_Import_User_Session_Tables' retrieved from /opt/airflow/dags/ETL_Import_Tables.py
+[2025-10-28T20:55:23.986+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:55:23.986+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-28T20:55:24.079+0000] {logging_mixin.py:190} INFO - [2025-10-28T20:55:24.078+0000] {dag.py:4156} INFO - Setting next_dagrun for ETL_Import_User_Session_Tables to 2025-10-28 02:00:00+00:00, run_after=2025-10-29 02:00:00+00:00
+[2025-10-28T20:55:24.131+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Import_Tables.py took 0.300 seconds

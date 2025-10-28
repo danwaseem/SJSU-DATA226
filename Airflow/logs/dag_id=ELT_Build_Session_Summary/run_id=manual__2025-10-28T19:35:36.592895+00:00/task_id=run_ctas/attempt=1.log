@@ -1,0 +1,63 @@
+[2025-10-28T19:35:43.068+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-10-28T19:35:43.112+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ELT_Build_Session_Summary.run_ctas manual__2025-10-28T19:35:36.592895+00:00 [queued]>
+[2025-10-28T19:35:43.150+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ELT_Build_Session_Summary.run_ctas manual__2025-10-28T19:35:36.592895+00:00 [queued]>
+[2025-10-28T19:35:43.151+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2025-10-28T19:35:43.212+0000] {taskinstance.py:2888} INFO - Executing <Task(_PythonDecoratedOperator): run_ctas> on 2025-10-28 19:35:36.592895+00:00
+[2025-10-28T19:35:43.342+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'ELT_Build_Session_Summary', 'run_ctas', 'manual__2025-10-28T19:35:36.592895+00:00', '--job-id', '176', '--raw', '--subdir', 'DAGS_FOLDER/ELT_Session_Summary.py', '--cfg-path', '/tmp/tmpg0gm54q1']
+[2025-10-28T19:35:43.357+0000] {standard_task_runner.py:105} INFO - Job 176: Subtask run_ctas
+[2025-10-28T19:35:43.369+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=806) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-10-28T19:35:43.371+0000] {standard_task_runner.py:72} INFO - Started process 819 to run task
+[2025-10-28T19:35:43.620+0000] {task_command.py:467} INFO - Running <TaskInstance: ELT_Build_Session_Summary.run_ctas manual__2025-10-28T19:35:36.592895+00:00 [running]> on host f515708a0f95
+[2025-10-28T19:35:44.001+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='ELT_Build_Session_Summary' AIRFLOW_CTX_TASK_ID='run_ctas' AIRFLOW_CTX_EXECUTION_DATE='2025-10-28T19:35:36.592895+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-10-28T19:35:36.592895+00:00'
+[2025-10-28T19:35:44.007+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-10-28T19:35:44.013+0000] {ELT_Session_Summary.py:27} INFO - Creating table: analytics.session_summary
+[2025-10-28T19:35:44.014+0000] {ELT_Session_Summary.py:28} INFO - SQL Query: 
+        SELECT 
+            u.userId,
+            u.sessionId,
+            u.channel,
+            s.ts
+        FROM raw.user_session_channel u
+        JOIN raw.session_timestamp s 
+            ON u.sessionId = s.sessionId
+    
+[2025-10-28T19:35:44.034+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-10-28T19:35:44.039+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.10.14-linuxkit-x86_64-with-glibc2.36
+[2025-10-28T19:35:44.042+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-10-28T19:35:44.043+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-10-28T19:35:45.635+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-10-28T19:35:45.637+0000] {ELT_Session_Summary.py:37} INFO - Creating temp table: CREATE OR REPLACE TABLE analytics.temp_session_summary AS 
+        SELECT 
+            u.userId,
+            u.sessionId,
+            u.channel,
+            s.ts
+        FROM raw.user_session_channel u
+        JOIN raw.session_timestamp s 
+            ON u.sessionId = s.sessionId
+    
+[2025-10-28T19:35:47.068+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-10-28T19:35:47.070+0000] {ELT_Session_Summary.py:42} INFO - Checking primary key uniqueness for: sessionId
+[2025-10-28T19:35:47.071+0000] {ELT_Session_Summary.py:51} INFO - Duplicate check SQL: 
+                SELECT sessionId, COUNT(1) AS cnt 
+                FROM analytics.temp_session_summary
+                GROUP BY 1
+                ORDER BY 2 DESC
+                LIMIT 1
+            
+[2025-10-28T19:35:47.369+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-10-28T19:35:47.376+0000] {ELT_Session_Summary.py:57} INFO - Max duplicate count: 1 for sessionId=0a54b19a13b6712dc04d1b49215423d8
+[2025-10-28T19:35:47.378+0000] {ELT_Session_Summary.py:65} INFO - Primary key uniqueness check passed!
+[2025-10-28T19:35:47.380+0000] {ELT_Session_Summary.py:74} INFO - Creating main table structure if not exists
+[2025-10-28T19:35:48.087+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-10-28T19:35:48.088+0000] {ELT_Session_Summary.py:79} INFO - Swapping tables: ALTER TABLE analytics.session_summary SWAP WITH analytics.temp_session_summary;
+[2025-10-28T19:35:48.218+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-10-28T19:35:48.293+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-10-28T19:35:48.295+0000] {ELT_Session_Summary.py:85} INFO - Successfully created analytics.session_summary with 101520 rows
+[2025-10-28T19:35:48.389+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-10-28T19:35:48.390+0000] {python.py:240} INFO - Done. Returned value was: Table analytics.session_summary created with 101520 rows
+[2025-10-28T19:35:48.447+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-10-28T19:35:48.450+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=ELT_Build_Session_Summary, task_id=run_ctas, run_id=manual__2025-10-28T19:35:36.592895+00:00, execution_date=20251028T193536, start_date=20251028T193543, end_date=20251028T193548
+[2025-10-28T19:35:48.524+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-10-28T19:35:48.560+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-10-28T19:35:48.563+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
