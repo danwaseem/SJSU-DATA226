@@ -1,0 +1,17 @@
+name: 'stock_analytics'
+version: '1.0.0'
+config-version: 2
+profile: 'stock_analytics'
+
+models:
+  stock_analytics:
+    +materialized: view
+
+    staging:
+      +materialized: view
+
+    marts:
+      +materialized: table
+
+snapshots:
+ # +target_schema: '{{ env_var("SF_ANALYTICS_SCHEMA", "ANALYTICS") }}'

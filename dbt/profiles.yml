@@ -1,0 +1,13 @@
+stock_analytics:
+  target: prod
+  outputs:
+    prod:
+      type: snowflake
+      account: "sfedu02-lvb17920"
+      user: "{{ env_var('SF_USER', 'HEDGEHOG') }}"
+      password: "{{ env_var('SF_PASSWORD') }}"
+      warehouse: "HEDGEHOG_QUERY_WH"
+      database: "USER_DB_HEDGEHOG"
+      schema: "ANALYTICS"
+      threads: 4
+      client_session_keep_alive: False

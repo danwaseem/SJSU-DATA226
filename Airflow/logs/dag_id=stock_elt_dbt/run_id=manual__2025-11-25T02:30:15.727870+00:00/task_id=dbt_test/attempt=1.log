@@ -1,0 +1,50 @@
+[2025-11-25T02:30:39.787+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-11-25T02:30:39.813+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: stock_elt_dbt.dbt_test manual__2025-11-25T02:30:15.727870+00:00 [queued]>
+[2025-11-25T02:30:39.828+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: stock_elt_dbt.dbt_test manual__2025-11-25T02:30:15.727870+00:00 [queued]>
+[2025-11-25T02:30:39.829+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2025-11-25T02:30:39.852+0000] {taskinstance.py:2888} INFO - Executing <Task(BashOperator): dbt_test> on 2025-11-25 02:30:15.727870+00:00
+[2025-11-25T02:30:39.864+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'stock_elt_dbt', 'dbt_test', 'manual__2025-11-25T02:30:15.727870+00:00', '--job-id', '134', '--raw', '--subdir', 'DAGS_FOLDER/stock_elt_dbt.py', '--cfg-path', '/tmp/tmpstzgmqhk']
+[2025-11-25T02:30:39.869+0000] {standard_task_runner.py:105} INFO - Job 134: Subtask dbt_test
+[2025-11-25T02:30:39.879+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=17078) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-11-25T02:30:39.881+0000] {standard_task_runner.py:72} INFO - Started process 17079 to run task
+[2025-11-25T02:30:39.954+0000] {task_command.py:467} INFO - Running <TaskInstance: stock_elt_dbt.dbt_test manual__2025-11-25T02:30:15.727870+00:00 [running]> on host 638b31fa7dcc
+[2025-11-25T02:30:40.156+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='stock_elt_dbt' AIRFLOW_CTX_TASK_ID='dbt_test' AIRFLOW_CTX_EXECUTION_DATE='2025-11-25T02:30:15.727870+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-11-25T02:30:15.727870+00:00'
+[2025-11-25T02:30:40.157+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-11-25T02:30:40.206+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-11-25T02:30:40.208+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /opt/***/dbt/stock_analytics && if [ -x /home/***/.local/bin/dbt ]; then DBT_BIN=/home/***/.local/bin/dbt; elif command -v dbt >/dev/null 2>&1; then DBT_BIN="$(command -v dbt)"; else DBT_BIN="python -m dbt.cli.main"; fi; $DBT_BIN test --target prod --profiles-dir "$DBT_PROFILES_DIR"']
+[2025-11-25T02:30:40.243+0000] {subprocess.py:86} INFO - Output:
+[2025-11-25T02:30:43.525+0000] {subprocess.py:93} INFO - [0m02:30:43  Running with dbt=1.8.8
+[2025-11-25T02:30:45.049+0000] {subprocess.py:93} INFO - [0m02:30:45  Registered adapter: snowflake=1.8.4
+[2025-11-25T02:30:45.787+0000] {subprocess.py:93} INFO - [0m02:30:45  Found 4 models, 1 snapshot, 6 data tests, 1 source, 454 macros
+[2025-11-25T02:30:45.791+0000] {subprocess.py:93} INFO - [0m02:30:45
+[2025-11-25T02:30:47.521+0000] {subprocess.py:93} INFO - [0m02:30:47  Concurrency: 1 threads (target='prod')
+[2025-11-25T02:30:47.522+0000] {subprocess.py:93} INFO - [0m02:30:47
+[2025-11-25T02:30:47.540+0000] {subprocess.py:93} INFO - [0m02:30:47  1 of 6 START test not_null_fact_prices_date .................................... [RUN]
+[2025-11-25T02:30:48.592+0000] {subprocess.py:93} INFO - [0m02:30:48  1 of 6 PASS not_null_fact_prices_date .......................................... [[32mPASS[0m in 1.05s]
+[2025-11-25T02:30:48.597+0000] {subprocess.py:93} INFO - [0m02:30:48  2 of 6 START test not_null_fact_prices_symbol .................................. [RUN]
+[2025-11-25T02:30:49.475+0000] {subprocess.py:93} INFO - [0m02:30:49  2 of 6 PASS not_null_fact_prices_symbol ........................................ [[32mPASS[0m in 0.87s]
+[2025-11-25T02:30:49.479+0000] {subprocess.py:93} INFO - [0m02:30:49  3 of 6 START test not_null_indicators_ma_rsi_symbol ............................ [RUN]
+[2025-11-25T02:30:50.388+0000] {subprocess.py:93} INFO - [0m02:30:50  3 of 6 PASS not_null_indicators_ma_rsi_symbol .................................. [[32mPASS[0m in 0.91s]
+[2025-11-25T02:30:50.396+0000] {subprocess.py:93} INFO - [0m02:30:50  4 of 6 START test not_null_stg_market_data_date ................................ [RUN]
+[2025-11-25T02:30:51.212+0000] {subprocess.py:93} INFO - [0m02:30:51  4 of 6 PASS not_null_stg_market_data_date ...................................... [[32mPASS[0m in 0.81s]
+[2025-11-25T02:30:51.216+0000] {subprocess.py:93} INFO - [0m02:30:51  5 of 6 START test not_null_stg_market_data_symbol .............................. [RUN]
+[2025-11-25T02:30:51.968+0000] {subprocess.py:93} INFO - [0m02:30:51  5 of 6 PASS not_null_stg_market_data_symbol .................................... [[32mPASS[0m in 0.75s]
+[2025-11-25T02:30:51.972+0000] {subprocess.py:93} INFO - [0m02:30:51  6 of 6 START test unique_stg_market_data_symbol ................................ [RUN]
+[2025-11-25T02:30:52.731+0000] {subprocess.py:93} INFO - [0m02:30:52  6 of 6 WARN 2 unique_stg_market_data_symbol .................................... [[33mWARN 2[0m in 0.76s]
+[2025-11-25T02:30:52.742+0000] {subprocess.py:93} INFO - [0m02:30:52
+[2025-11-25T02:30:52.743+0000] {subprocess.py:93} INFO - [0m02:30:52  Finished running 6 data tests in 0 hours 0 minutes and 6.95 seconds (6.95s).
+[2025-11-25T02:30:52.847+0000] {subprocess.py:93} INFO - [0m02:30:52
+[2025-11-25T02:30:52.848+0000] {subprocess.py:93} INFO - [0m02:30:52  [33mCompleted with 1 warning:[0m
+[2025-11-25T02:30:52.849+0000] {subprocess.py:93} INFO - [0m02:30:52
+[2025-11-25T02:30:52.851+0000] {subprocess.py:93} INFO - [0m02:30:52  [33mWarning in test unique_stg_market_data_symbol (models/schema.yml)[0m
+[2025-11-25T02:30:52.852+0000] {subprocess.py:93} INFO - [0m02:30:52  Got 2 results, configured to warn if != 0
+[2025-11-25T02:30:52.853+0000] {subprocess.py:93} INFO - [0m02:30:52
+[2025-11-25T02:30:52.854+0000] {subprocess.py:93} INFO - [0m02:30:52    compiled code at target/compiled/stock_analytics/models/schema.yml/unique_stg_market_data_symbol.sql
+[2025-11-25T02:30:52.855+0000] {subprocess.py:93} INFO - [0m02:30:52
+[2025-11-25T02:30:52.856+0000] {subprocess.py:93} INFO - [0m02:30:52  Done. PASS=5 WARN=1 ERROR=0 SKIP=0 TOTAL=6
+[2025-11-25T02:30:53.858+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-11-25T02:30:53.903+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-11-25T02:30:53.904+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=stock_elt_dbt, task_id=dbt_test, run_id=manual__2025-11-25T02:30:15.727870+00:00, execution_date=20251125T023015, start_date=20251125T023039, end_date=20251125T023053
+[2025-11-25T02:30:53.968+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-11-25T02:30:54.006+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-11-25T02:30:54.009+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

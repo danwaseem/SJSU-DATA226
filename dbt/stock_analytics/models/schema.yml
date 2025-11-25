@@ -1,0 +1,33 @@
+version: 2
+
+models:
+  - name: stg_market_data
+    description: "Staging view over RAW.MARKET_DATA"
+    columns:
+      - name: date
+        data_tests: [not_null]
+      - name: symbol
+        data_tests: [not_null]
+
+  - name: fact_prices
+    description: "Daily price fact table"
+    columns:
+      - name: date
+        data_tests: [not_null]
+      - name: symbol
+        data_tests: [not_null]
+
+  - name: indicators_ma_rsi
+    description: "Technical indicators (moving averages & RSI)"
+    columns:
+      - name: date
+        data_tests: [not_null]
+      - name: symbol
+        data_tests: [not_null]
+
+snapshots:
+  - name: snap_market_data
+    description: "Slowly changing snapshot of market_data"
+    columns:
+      - name: snapshot_key
+        data_tests: [not_null]

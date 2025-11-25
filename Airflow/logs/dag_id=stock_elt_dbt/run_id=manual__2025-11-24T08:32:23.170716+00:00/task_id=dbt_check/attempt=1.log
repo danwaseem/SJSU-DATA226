@@ -1,0 +1,47 @@
+[2025-11-24T08:32:25.930+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-11-24T08:32:26.080+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: stock_elt_dbt.dbt_check manual__2025-11-24T08:32:23.170716+00:00 [queued]>
+[2025-11-24T08:32:26.134+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: stock_elt_dbt.dbt_check manual__2025-11-24T08:32:23.170716+00:00 [queued]>
+[2025-11-24T08:32:26.145+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2025-11-24T08:32:26.222+0000] {taskinstance.py:2888} INFO - Executing <Task(BashOperator): dbt_check> on 2025-11-24 08:32:23.170716+00:00
+[2025-11-24T08:32:26.310+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=571) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-11-24T08:32:26.314+0000] {standard_task_runner.py:72} INFO - Started process 580 to run task
+[2025-11-24T08:32:26.298+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'stock_elt_dbt', 'dbt_check', 'manual__2025-11-24T08:32:23.170716+00:00', '--job-id', '81', '--raw', '--subdir', 'DAGS_FOLDER/stock_elt_dbt.py', '--cfg-path', '/tmp/tmpk37xuz2c']
+[2025-11-24T08:32:26.336+0000] {standard_task_runner.py:105} INFO - Job 81: Subtask dbt_check
+[2025-11-24T08:32:26.579+0000] {task_command.py:467} INFO - Running <TaskInstance: stock_elt_dbt.dbt_check manual__2025-11-24T08:32:23.170716+00:00 [running]> on host c8099c57df18
+[2025-11-24T08:32:26.900+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='stock_elt_dbt' AIRFLOW_CTX_TASK_ID='dbt_check' AIRFLOW_CTX_EXECUTION_DATE='2025-11-24T08:32:23.170716+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-11-24T08:32:23.170716+00:00'
+[2025-11-24T08:32:26.902+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-11-24T08:32:26.957+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-11-24T08:32:26.958+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'set -x; echo "PYTHON:" $(which python); python -c "import dbt, dbt.cli.main as m; print(\'dbt:\', dbt.__version__)" ; which dbt ; dbt --version']
+[2025-11-24T08:32:26.979+0000] {subprocess.py:86} INFO - Output:
+[2025-11-24T08:32:26.983+0000] {subprocess.py:93} INFO - ++ which python
+[2025-11-24T08:32:26.997+0000] {subprocess.py:93} INFO - + echo PYTHON: /home/***/.local/bin/python
+[2025-11-24T08:32:26.998+0000] {subprocess.py:93} INFO - PYTHON: /home/***/.local/bin/python
+[2025-11-24T08:32:26.999+0000] {subprocess.py:93} INFO - + python -c 'import dbt, dbt.cli.main as m; print('\''dbt:'\'', dbt.__version__)'
+[2025-11-24T08:32:32.394+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2025-11-24T08:32:32.395+0000] {subprocess.py:93} INFO -   File "<string>", line 1, in <module>
+[2025-11-24T08:32:32.396+0000] {subprocess.py:93} INFO - AttributeError: module 'dbt' has no attribute '__version__'
+[2025-11-24T08:32:32.821+0000] {subprocess.py:93} INFO - + which dbt
+[2025-11-24T08:32:32.825+0000] {subprocess.py:93} INFO - /home/***/.local/bin/dbt
+[2025-11-24T08:32:32.827+0000] {subprocess.py:93} INFO - + dbt --version
+[2025-11-24T08:32:39.209+0000] {subprocess.py:93} INFO - Core:
+[2025-11-24T08:32:39.211+0000] {subprocess.py:93} INFO -   - installed: 1.8.8
+[2025-11-24T08:32:39.213+0000] {subprocess.py:93} INFO -   - latest:    1.10.15 - Update available!
+[2025-11-24T08:32:39.214+0000] {subprocess.py:93} INFO - 
+[2025-11-24T08:32:39.214+0000] {subprocess.py:93} INFO -   Your version of dbt-core is out of date!
+[2025-11-24T08:32:39.215+0000] {subprocess.py:93} INFO -   You can find instructions for upgrading here:
+[2025-11-24T08:32:39.216+0000] {subprocess.py:93} INFO -   https://docs.getdbt.com/docs/installation
+[2025-11-24T08:32:39.217+0000] {subprocess.py:93} INFO - 
+[2025-11-24T08:32:39.218+0000] {subprocess.py:93} INFO - Plugins:
+[2025-11-24T08:32:39.219+0000] {subprocess.py:93} INFO -   - snowflake: 1.8.4 - Update available!
+[2025-11-24T08:32:39.219+0000] {subprocess.py:93} INFO - 
+[2025-11-24T08:32:39.220+0000] {subprocess.py:93} INFO -   At least one plugin is out of date or incompatible with dbt-core.
+[2025-11-24T08:32:39.222+0000] {subprocess.py:93} INFO -   You can find instructions for upgrading here:
+[2025-11-24T08:32:39.223+0000] {subprocess.py:93} INFO -   https://docs.getdbt.com/docs/installation
+[2025-11-24T08:32:39.224+0000] {subprocess.py:93} INFO - 
+[2025-11-24T08:32:39.226+0000] {subprocess.py:93} INFO - 
+[2025-11-24T08:32:39.736+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-11-24T08:32:39.785+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-11-24T08:32:39.786+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=stock_elt_dbt, task_id=dbt_check, run_id=manual__2025-11-24T08:32:23.170716+00:00, execution_date=20251124T083223, start_date=20251124T083226, end_date=20251124T083239
+[2025-11-24T08:32:39.865+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-11-24T08:32:39.922+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-11-24T08:32:39.925+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -1,0 +1,24 @@
+[2025-11-25T00:21:18.585+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-11-25T00:21:18.615+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: stock_elt_dbt.dbt_deps manual__2025-11-25T00:21:16.960945+00:00 [queued]>
+[2025-11-25T00:21:18.632+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: stock_elt_dbt.dbt_deps manual__2025-11-25T00:21:16.960945+00:00 [queued]>
+[2025-11-25T00:21:18.633+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2025-11-25T00:21:18.659+0000] {taskinstance.py:2888} INFO - Executing <Task(BashOperator): dbt_deps> on 2025-11-25 00:21:16.960945+00:00
+[2025-11-25T00:21:18.673+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'stock_elt_dbt', 'dbt_deps', 'manual__2025-11-25T00:21:16.960945+00:00', '--job-id', '126', '--raw', '--subdir', 'DAGS_FOLDER/stock_elt_dbt.py', '--cfg-path', '/tmp/tmp2nexbvio']
+[2025-11-25T00:21:18.679+0000] {standard_task_runner.py:105} INFO - Job 126: Subtask dbt_deps
+[2025-11-25T00:21:18.684+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=9096) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-11-25T00:21:18.685+0000] {standard_task_runner.py:72} INFO - Started process 9097 to run task
+[2025-11-25T00:21:18.796+0000] {task_command.py:467} INFO - Running <TaskInstance: stock_elt_dbt.dbt_deps manual__2025-11-25T00:21:16.960945+00:00 [running]> on host 638b31fa7dcc
+[2025-11-25T00:21:19.050+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='stock_elt_dbt' AIRFLOW_CTX_TASK_ID='dbt_deps' AIRFLOW_CTX_EXECUTION_DATE='2025-11-25T00:21:16.960945+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-11-25T00:21:16.960945+00:00'
+[2025-11-25T00:21:19.052+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-11-25T00:21:19.127+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-11-25T00:21:19.131+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /opt/***/dbt/stock_analytics && if [ -x /home/***/.local/bin/dbt ]; then DBT_BIN=/home/***/.local/bin/dbt; elif command -v dbt >/dev/null 2>&1; then DBT_BIN="$(command -v dbt)"; else DBT_BIN="python -m dbt.cli.main"; fi; $DBT_BIN deps --profiles-dir "$DBT_PROFILES_DIR"']
+[2025-11-25T00:21:19.166+0000] {subprocess.py:86} INFO - Output:
+[2025-11-25T00:21:24.032+0000] {subprocess.py:93} INFO - [0m00:21:24  Running with dbt=1.8.8
+[2025-11-25T00:21:24.385+0000] {subprocess.py:93} INFO - [0m00:21:24  Warning: No packages were found in packages.yml
+[2025-11-25T00:21:24.399+0000] {subprocess.py:93} INFO - [0m00:21:24  Warning: No packages were found in packages.yml
+[2025-11-25T00:21:25.218+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-11-25T00:21:25.268+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-11-25T00:21:25.269+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=stock_elt_dbt, task_id=dbt_deps, run_id=manual__2025-11-25T00:21:16.960945+00:00, execution_date=20251125T002116, start_date=20251125T002118, end_date=20251125T002125
+[2025-11-25T00:21:25.335+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-11-25T00:21:25.387+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-11-25T00:21:25.390+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

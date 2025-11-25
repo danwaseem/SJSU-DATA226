@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: raw
+    database: '{{ env_var("SF_DATABASE", "USER_DB_HEDGEHOG") }}'
+    schema: RAW
+    tables:
+      - name: market_data

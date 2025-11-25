@@ -1,0 +1,42 @@
+[2025-11-25T06:14:38.705+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-11-25T06:14:38.747+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: stock_elt_dbt.dbt_run manual__2025-11-25T06:14:27.070122+00:00 [queued]>
+[2025-11-25T06:14:38.769+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: stock_elt_dbt.dbt_run manual__2025-11-25T06:14:27.070122+00:00 [queued]>
+[2025-11-25T06:14:38.770+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2025-11-25T06:14:38.798+0000] {taskinstance.py:2888} INFO - Executing <Task(BashOperator): dbt_run> on 2025-11-25 06:14:27.070122+00:00
+[2025-11-25T06:14:38.812+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'stock_elt_dbt', 'dbt_run', 'manual__2025-11-25T06:14:27.070122+00:00', '--job-id', '162', '--raw', '--subdir', 'DAGS_FOLDER/stock_elt_dbt.py', '--cfg-path', '/tmp/tmp7kxdltqo']
+[2025-11-25T06:14:38.819+0000] {standard_task_runner.py:105} INFO - Job 162: Subtask dbt_run
+[2025-11-25T06:14:38.823+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=8260) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-11-25T06:14:38.826+0000] {standard_task_runner.py:72} INFO - Started process 8261 to run task
+[2025-11-25T06:14:38.929+0000] {task_command.py:467} INFO - Running <TaskInstance: stock_elt_dbt.dbt_run manual__2025-11-25T06:14:27.070122+00:00 [running]> on host 70371839f9d1
+[2025-11-25T06:14:39.122+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='stock_elt_dbt' AIRFLOW_CTX_TASK_ID='dbt_run' AIRFLOW_CTX_EXECUTION_DATE='2025-11-25T06:14:27.070122+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-11-25T06:14:27.070122+00:00'
+[2025-11-25T06:14:39.123+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-11-25T06:14:39.154+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-11-25T06:14:39.156+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /opt/***/dbt/stock_analytics\n    export DBT_PROFILES_DIR=/opt/***/dbt\n\n    if [ -x /home/***/.local/bin/dbt ]; then\n      DBT_BIN=/home/***/.local/bin/dbt\n    elif command -v dbt >/dev/null 2>&1; then\n      DBT_BIN="$(command -v dbt)"\n    else\n      DBT_BIN="python -m dbt.cli.main"\n    fi\n\n    $DBT_BIN run --target prod --profiles-dir "$DBT_PROFILES_DIR"']
+[2025-11-25T06:14:39.169+0000] {subprocess.py:86} INFO - Output:
+[2025-11-25T06:14:43.499+0000] {subprocess.py:93} INFO - [0m06:14:43  Running with dbt=1.8.8
+[2025-11-25T06:14:45.778+0000] {subprocess.py:93} INFO - [0m06:14:45  Registered adapter: snowflake=1.8.4
+[2025-11-25T06:14:46.046+0000] {subprocess.py:93} INFO - [0m06:14:46  Unable to do partial parsing because profile has changed
+[2025-11-25T06:14:49.345+0000] {subprocess.py:93} INFO - [0m06:14:49  Found 4 models, 1 snapshot, 7 data tests, 1 source, 454 macros
+[2025-11-25T06:14:49.350+0000] {subprocess.py:93} INFO - [0m06:14:49
+[2025-11-25T06:14:51.976+0000] {subprocess.py:93} INFO - [0m06:14:51  Concurrency: 4 threads (target='prod')
+[2025-11-25T06:14:51.978+0000] {subprocess.py:93} INFO - [0m06:14:51
+[2025-11-25T06:14:52.003+0000] {subprocess.py:93} INFO - [0m06:14:52  1 of 4 START sql view model _ANALYTICS.stg_market_data ......................... [RUN]
+[2025-11-25T06:14:53.006+0000] {subprocess.py:93} INFO - [0m06:14:53  1 of 4 OK created sql view model _ANALYTICS.stg_market_data .................... [[32mSUCCESS 1[0m in 1.00s]
+[2025-11-25T06:14:53.016+0000] {subprocess.py:93} INFO - [0m06:14:53  2 of 4 START sql table model _ANALYTICS.dim_calendar ........................... [RUN]
+[2025-11-25T06:14:53.019+0000] {subprocess.py:93} INFO - [0m06:14:53  3 of 4 START sql table model _ANALYTICS.fact_prices ............................ [RUN]
+[2025-11-25T06:14:53.021+0000] {subprocess.py:93} INFO - [0m06:14:53  4 of 4 START sql table model _ANALYTICS.indicators_ma_rsi ...................... [RUN]
+[2025-11-25T06:14:54.609+0000] {subprocess.py:93} INFO - [0m06:14:54  4 of 4 OK created sql table model _ANALYTICS.indicators_ma_rsi ................. [[32mSUCCESS 1[0m in 1.58s]
+[2025-11-25T06:14:54.676+0000] {subprocess.py:93} INFO - [0m06:14:54  2 of 4 OK created sql table model _ANALYTICS.dim_calendar ...................... [[32mSUCCESS 1[0m in 1.65s]
+[2025-11-25T06:14:54.910+0000] {subprocess.py:93} INFO - [0m06:14:54  3 of 4 OK created sql table model _ANALYTICS.fact_prices ....................... [[32mSUCCESS 1[0m in 1.88s]
+[2025-11-25T06:14:54.929+0000] {subprocess.py:93} INFO - [0m06:14:54
+[2025-11-25T06:14:54.930+0000] {subprocess.py:93} INFO - [0m06:14:54  Finished running 1 view model, 3 table models in 0 hours 0 minutes and 5.58 seconds (5.58s).
+[2025-11-25T06:14:55.035+0000] {subprocess.py:93} INFO - [0m06:14:55
+[2025-11-25T06:14:55.036+0000] {subprocess.py:93} INFO - [0m06:14:55  [32mCompleted successfully[0m
+[2025-11-25T06:14:55.038+0000] {subprocess.py:93} INFO - [0m06:14:55
+[2025-11-25T06:14:55.039+0000] {subprocess.py:93} INFO - [0m06:14:55  Done. PASS=4 WARN=0 ERROR=0 SKIP=0 TOTAL=4
+[2025-11-25T06:14:56.129+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-11-25T06:14:56.169+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-11-25T06:14:56.170+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=stock_elt_dbt, task_id=dbt_run, run_id=manual__2025-11-25T06:14:27.070122+00:00, execution_date=20251125T061427, start_date=20251125T061438, end_date=20251125T061456
+[2025-11-25T06:14:56.204+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-11-25T06:14:56.263+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-11-25T06:14:56.265+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

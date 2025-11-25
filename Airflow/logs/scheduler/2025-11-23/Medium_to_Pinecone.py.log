@@ -1,0 +1,1568 @@
+[2025-11-23T00:00:10.234+0000] {processor.py:186} INFO - Started process (PID=3096) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T00:00:10.237+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T00:00:10.239+0000] {logging_mixin.py:190} INFO - [2025-11-23T00:00:10.239+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T00:00:10.249+0000] {logging_mixin.py:190} INFO - [2025-11-23T00:00:10.246+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T00:00:10.250+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T00:00:10.292+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.071 seconds
+[2025-11-23T00:00:40.647+0000] {processor.py:186} INFO - Started process (PID=3135) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T00:00:40.649+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T00:00:40.652+0000] {logging_mixin.py:190} INFO - [2025-11-23T00:00:40.651+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T00:00:40.661+0000] {logging_mixin.py:190} INFO - [2025-11-23T00:00:40.659+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T00:00:40.663+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T00:00:40.698+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.062 seconds
+[2025-11-23T00:01:10.910+0000] {processor.py:186} INFO - Started process (PID=3174) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T00:01:10.912+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T00:01:10.914+0000] {logging_mixin.py:190} INFO - [2025-11-23T00:01:10.913+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T00:01:10.924+0000] {logging_mixin.py:190} INFO - [2025-11-23T00:01:10.921+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T00:01:10.925+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T00:01:10.961+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.062 seconds
+[2025-11-23T02:01:42.079+0000] {processor.py:186} INFO - Started process (PID=3230) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T02:01:42.084+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T02:01:42.098+0000] {logging_mixin.py:190} INFO - [2025-11-23T02:01:42.096+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T02:01:42.125+0000] {logging_mixin.py:190} INFO - [2025-11-23T02:01:42.121+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T02:01:42.130+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T02:01:42.199+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.301 seconds
+[2025-11-23T02:02:12.711+0000] {processor.py:186} INFO - Started process (PID=3267) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T02:02:12.717+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T02:02:12.730+0000] {logging_mixin.py:190} INFO - [2025-11-23T02:02:12.727+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T02:02:12.800+0000] {logging_mixin.py:190} INFO - [2025-11-23T02:02:12.776+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T02:02:12.804+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T02:02:13.070+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.437 seconds
+[2025-11-23T02:53:18.315+0000] {processor.py:186} INFO - Started process (PID=3312) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T02:53:18.329+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T02:53:18.333+0000] {logging_mixin.py:190} INFO - [2025-11-23T02:53:18.332+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T02:53:18.370+0000] {logging_mixin.py:190} INFO - [2025-11-23T02:53:18.363+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T02:53:18.376+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T02:53:18.610+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.335 seconds
+[2025-11-23T02:53:49.276+0000] {processor.py:186} INFO - Started process (PID=3348) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T02:53:49.280+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T02:53:49.283+0000] {logging_mixin.py:190} INFO - [2025-11-23T02:53:49.283+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T02:53:49.297+0000] {logging_mixin.py:190} INFO - [2025-11-23T02:53:49.293+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T02:53:49.299+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T02:53:49.351+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.109 seconds
+[2025-11-23T02:54:19.708+0000] {processor.py:186} INFO - Started process (PID=3384) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T02:54:19.711+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T02:54:19.713+0000] {logging_mixin.py:190} INFO - [2025-11-23T02:54:19.713+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T02:54:19.730+0000] {logging_mixin.py:190} INFO - [2025-11-23T02:54:19.726+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T02:54:19.731+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T02:54:19.780+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.085 seconds
+[2025-11-23T02:54:49.957+0000] {processor.py:186} INFO - Started process (PID=3419) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T02:54:49.959+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T02:54:49.964+0000] {logging_mixin.py:190} INFO - [2025-11-23T02:54:49.962+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T02:54:49.981+0000] {logging_mixin.py:190} INFO - [2025-11-23T02:54:49.975+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T02:54:49.983+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T02:54:50.037+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.095 seconds
+[2025-11-23T02:55:20.211+0000] {processor.py:186} INFO - Started process (PID=3460) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T02:55:20.213+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T02:55:20.217+0000] {logging_mixin.py:190} INFO - [2025-11-23T02:55:20.216+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T02:55:20.233+0000] {logging_mixin.py:190} INFO - [2025-11-23T02:55:20.230+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T02:55:20.235+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T02:55:20.280+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.084 seconds
+[2025-11-23T02:55:50.749+0000] {processor.py:186} INFO - Started process (PID=3501) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T02:55:50.751+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T02:55:50.756+0000] {logging_mixin.py:190} INFO - [2025-11-23T02:55:50.753+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T02:55:50.785+0000] {logging_mixin.py:190} INFO - [2025-11-23T02:55:50.782+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T02:55:50.787+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T02:55:50.829+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.097 seconds
+[2025-11-23T03:25:06.954+0000] {processor.py:186} INFO - Started process (PID=3554) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T03:25:06.956+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T03:25:06.962+0000] {logging_mixin.py:190} INFO - [2025-11-23T03:25:06.961+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T03:25:06.977+0000] {logging_mixin.py:190} INFO - [2025-11-23T03:25:06.973+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T03:25:06.980+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T03:25:07.068+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.142 seconds
+[2025-11-23T03:25:37.459+0000] {processor.py:186} INFO - Started process (PID=3590) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T03:25:37.460+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T03:25:37.465+0000] {logging_mixin.py:190} INFO - [2025-11-23T03:25:37.464+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T03:25:37.476+0000] {logging_mixin.py:190} INFO - [2025-11-23T03:25:37.474+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T03:25:37.478+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T03:25:37.511+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.063 seconds
+[2025-11-23T03:26:07.800+0000] {processor.py:186} INFO - Started process (PID=3631) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T03:26:07.802+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T03:26:07.807+0000] {logging_mixin.py:190} INFO - [2025-11-23T03:26:07.806+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T03:26:07.819+0000] {logging_mixin.py:190} INFO - [2025-11-23T03:26:07.816+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T03:26:07.821+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T03:26:07.858+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.070 seconds
+[2025-11-23T03:26:38.615+0000] {processor.py:186} INFO - Started process (PID=3672) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T03:26:38.622+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T03:26:38.627+0000] {logging_mixin.py:190} INFO - [2025-11-23T03:26:38.626+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T03:26:38.642+0000] {logging_mixin.py:190} INFO - [2025-11-23T03:26:38.636+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T03:26:38.652+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T03:26:38.713+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.139 seconds
+[2025-11-23T03:27:08.836+0000] {processor.py:186} INFO - Started process (PID=3710) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T03:27:08.837+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T03:27:08.842+0000] {logging_mixin.py:190} INFO - [2025-11-23T03:27:08.842+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T03:27:08.852+0000] {logging_mixin.py:190} INFO - [2025-11-23T03:27:08.850+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T03:27:08.853+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T03:27:08.895+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.071 seconds
+[2025-11-23T03:27:39.285+0000] {processor.py:186} INFO - Started process (PID=3754) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T03:27:39.287+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T03:27:39.291+0000] {logging_mixin.py:190} INFO - [2025-11-23T03:27:39.290+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T03:27:39.302+0000] {logging_mixin.py:190} INFO - [2025-11-23T03:27:39.299+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T03:27:39.303+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T03:27:39.336+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.061 seconds
+[2025-11-23T03:28:10.003+0000] {processor.py:186} INFO - Started process (PID=3794) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T03:28:10.004+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T03:28:10.009+0000] {logging_mixin.py:190} INFO - [2025-11-23T03:28:10.008+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T03:28:10.021+0000] {logging_mixin.py:190} INFO - [2025-11-23T03:28:10.017+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T03:28:10.024+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T03:28:10.066+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.077 seconds
+[2025-11-23T03:28:40.402+0000] {processor.py:186} INFO - Started process (PID=3835) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T03:28:40.403+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T03:28:40.408+0000] {logging_mixin.py:190} INFO - [2025-11-23T03:28:40.407+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T03:28:40.420+0000] {logging_mixin.py:190} INFO - [2025-11-23T03:28:40.416+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T03:28:40.421+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T03:28:40.459+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.068 seconds
+[2025-11-23T03:29:11.095+0000] {processor.py:186} INFO - Started process (PID=3876) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T03:29:11.096+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T03:29:11.102+0000] {logging_mixin.py:190} INFO - [2025-11-23T03:29:11.100+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T03:29:11.113+0000] {logging_mixin.py:190} INFO - [2025-11-23T03:29:11.110+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T03:29:11.114+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T03:29:11.149+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.065 seconds
+[2025-11-23T03:29:42.019+0000] {processor.py:186} INFO - Started process (PID=3917) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T03:29:42.021+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T03:29:42.027+0000] {logging_mixin.py:190} INFO - [2025-11-23T03:29:42.026+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T03:29:42.038+0000] {logging_mixin.py:190} INFO - [2025-11-23T03:29:42.035+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T03:29:42.042+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T03:29:42.077+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.068 seconds
+[2025-11-23T05:29:26.586+0000] {processor.py:186} INFO - Started process (PID=3949) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T05:29:26.588+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T05:29:26.594+0000] {logging_mixin.py:190} INFO - [2025-11-23T05:29:26.594+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T05:29:26.650+0000] {logging_mixin.py:190} INFO - [2025-11-23T05:29:26.634+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T05:29:26.655+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T05:29:26.889+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.355 seconds
+[2025-11-23T05:29:58.985+0000] {processor.py:186} INFO - Started process (PID=3993) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T05:29:58.994+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T05:29:59.010+0000] {logging_mixin.py:190} INFO - [2025-11-23T05:29:59.009+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T05:29:59.056+0000] {logging_mixin.py:190} INFO - [2025-11-23T05:29:59.035+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T05:29:59.060+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T05:29:59.211+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.270 seconds
+[2025-11-23T06:02:27.804+0000] {processor.py:186} INFO - Started process (PID=4030) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T06:02:27.807+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T06:02:27.813+0000] {logging_mixin.py:190} INFO - [2025-11-23T06:02:27.812+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T06:02:27.834+0000] {logging_mixin.py:190} INFO - [2025-11-23T06:02:27.831+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T06:02:27.836+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T06:02:28.012+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.222 seconds
+[2025-11-23T06:03:00.652+0000] {processor.py:186} INFO - Started process (PID=4071) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T06:03:00.661+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T06:03:00.690+0000] {logging_mixin.py:190} INFO - [2025-11-23T06:03:00.679+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T06:03:00.851+0000] {logging_mixin.py:190} INFO - [2025-11-23T06:03:00.806+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T06:03:00.856+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T06:03:01.106+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.512 seconds
+[2025-11-23T06:30:29.316+0000] {processor.py:186} INFO - Started process (PID=4103) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T06:30:29.319+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T06:30:29.325+0000] {logging_mixin.py:190} INFO - [2025-11-23T06:30:29.324+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T06:30:29.384+0000] {logging_mixin.py:190} INFO - [2025-11-23T06:30:29.373+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T06:30:29.386+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T06:30:29.436+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.138 seconds
+[2025-11-23T07:31:31.474+0000] {processor.py:186} INFO - Started process (PID=4144) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T07:31:31.476+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T07:31:31.490+0000] {logging_mixin.py:190} INFO - [2025-11-23T07:31:31.485+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T07:31:31.515+0000] {logging_mixin.py:190} INFO - [2025-11-23T07:31:31.510+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T07:31:31.518+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T07:31:31.565+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.108 seconds
+[2025-11-23T08:32:32.996+0000] {processor.py:186} INFO - Started process (PID=4185) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T08:32:33.016+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T08:32:33.021+0000] {logging_mixin.py:190} INFO - [2025-11-23T08:32:33.020+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T08:32:33.064+0000] {logging_mixin.py:190} INFO - [2025-11-23T08:32:33.061+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T08:32:33.070+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T08:32:33.112+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.144 seconds
+[2025-11-23T08:33:04.210+0000] {processor.py:186} INFO - Started process (PID=4226) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T08:33:04.217+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T08:33:04.228+0000] {logging_mixin.py:190} INFO - [2025-11-23T08:33:04.225+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T08:33:04.282+0000] {logging_mixin.py:190} INFO - [2025-11-23T08:33:04.269+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T08:33:04.290+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T08:33:04.452+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.287 seconds
+[2025-11-23T09:33:35.444+0000] {processor.py:186} INFO - Started process (PID=4270) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T09:33:35.446+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T09:33:35.450+0000] {logging_mixin.py:190} INFO - [2025-11-23T09:33:35.449+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T09:33:35.466+0000] {logging_mixin.py:190} INFO - [2025-11-23T09:33:35.462+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T09:33:35.469+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T09:33:35.605+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.176 seconds
+[2025-11-23T09:49:39.621+0000] {processor.py:186} INFO - Started process (PID=4323) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T09:49:39.624+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T09:49:39.631+0000] {logging_mixin.py:190} INFO - [2025-11-23T09:49:39.630+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T09:49:39.651+0000] {logging_mixin.py:190} INFO - [2025-11-23T09:49:39.645+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T09:49:39.653+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T09:49:39.729+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.126 seconds
+[2025-11-23T09:50:10.627+0000] {processor.py:186} INFO - Started process (PID=4363) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T09:50:10.630+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T09:50:10.637+0000] {logging_mixin.py:190} INFO - [2025-11-23T09:50:10.637+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T09:50:10.655+0000] {logging_mixin.py:190} INFO - [2025-11-23T09:50:10.647+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T09:50:10.657+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T09:50:10.730+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.119 seconds
+[2025-11-23T09:50:40.876+0000] {processor.py:186} INFO - Started process (PID=4400) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T09:50:40.879+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T09:50:40.883+0000] {logging_mixin.py:190} INFO - [2025-11-23T09:50:40.883+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T09:50:40.892+0000] {logging_mixin.py:190} INFO - [2025-11-23T09:50:40.890+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T09:50:40.893+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T09:50:40.936+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.074 seconds
+[2025-11-23T21:23:43.313+0000] {processor.py:186} INFO - Started process (PID=324) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:23:43.327+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T21:23:43.367+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:23:43.366+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:23:43.449+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:23:43.438+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T21:23:43.451+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:23:43.612+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.463 seconds
+[2025-11-23T21:24:14.215+0000] {processor.py:186} INFO - Started process (PID=371) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:24:14.218+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T21:24:14.224+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:24:14.223+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:24:14.238+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:24:14.235+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T21:24:14.240+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:24:14.285+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.089 seconds
+[2025-11-23T21:24:44.653+0000] {processor.py:186} INFO - Started process (PID=422) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:24:44.657+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T21:24:44.665+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:24:44.664+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:24:44.680+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:24:44.676+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T21:24:44.682+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:24:44.763+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.135 seconds
+[2025-11-23T21:25:15.264+0000] {processor.py:186} INFO - Started process (PID=464) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:25:15.266+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T21:25:15.271+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:25:15.271+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:25:15.284+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:25:15.280+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T21:25:15.286+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:25:15.326+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.074 seconds
+[2025-11-23T21:25:45.707+0000] {processor.py:186} INFO - Started process (PID=506) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:25:45.710+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T21:25:45.714+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:25:45.713+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:25:45.725+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:25:45.722+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T21:25:45.726+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:25:45.766+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.074 seconds
+[2025-11-23T21:26:15.914+0000] {processor.py:186} INFO - Started process (PID=547) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:26:15.916+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T21:26:15.921+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:26:15.920+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:26:15.930+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:26:15.928+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T21:26:15.932+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:26:15.964+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.060 seconds
+[2025-11-23T21:26:46.096+0000] {processor.py:186} INFO - Started process (PID=586) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:26:46.100+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T21:26:46.106+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:26:46.105+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:26:46.124+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:26:46.119+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T21:26:46.126+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:26:46.173+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.093 seconds
+[2025-11-23T21:27:16.432+0000] {processor.py:186} INFO - Started process (PID=627) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:27:16.434+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T21:27:16.439+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:27:16.438+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:27:16.451+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:27:16.447+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T21:27:16.454+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:27:16.495+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.077 seconds
+[2025-11-23T21:27:46.611+0000] {processor.py:186} INFO - Started process (PID=665) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:27:46.613+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T21:27:46.617+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:27:46.617+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:27:46.626+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:27:46.624+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T21:27:46.627+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:27:46.662+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.062 seconds
+[2025-11-23T21:38:20.018+0000] {processor.py:186} INFO - Started process (PID=715) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:38:20.023+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T21:38:20.031+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:38:20.030+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:38:20.052+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:38:20.047+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T21:38:20.057+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:38:20.151+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.154 seconds
+[2025-11-23T21:38:50.626+0000] {processor.py:186} INFO - Started process (PID=753) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:38:50.628+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T21:38:50.635+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:38:50.634+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:38:50.649+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:38:50.645+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T21:38:50.651+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:38:50.710+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.101 seconds
+[2025-11-23T21:39:21.303+0000] {processor.py:186} INFO - Started process (PID=793) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:39:21.309+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T21:39:21.321+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:39:21.320+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:39:21.337+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:39:21.333+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T21:39:21.339+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:39:21.422+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.140 seconds
+[2025-11-23T21:39:52.395+0000] {processor.py:186} INFO - Started process (PID=835) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:39:52.397+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T21:39:52.403+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:39:52.402+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:39:52.420+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:39:52.417+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T21:39:52.423+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:39:52.475+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.093 seconds
+[2025-11-23T21:40:22.560+0000] {processor.py:186} INFO - Started process (PID=873) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:40:22.563+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T21:40:22.568+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:40:22.567+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:40:22.577+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:40:22.574+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T21:40:22.579+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:40:22.620+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.074 seconds
+[2025-11-23T21:40:52.762+0000] {processor.py:186} INFO - Started process (PID=914) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:40:52.765+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T21:40:52.770+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:40:52.769+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:40:52.780+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:40:52.777+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T21:40:52.781+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:40:52.818+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.068 seconds
+[2025-11-23T21:41:23.706+0000] {processor.py:186} INFO - Started process (PID=955) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:41:23.708+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T21:41:23.717+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:41:23.717+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:41:23.728+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:41:23.725+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T21:41:23.729+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:41:23.769+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.072 seconds
+[2025-11-23T21:41:54.809+0000] {processor.py:186} INFO - Started process (PID=996) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:41:54.811+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T21:41:54.818+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:41:54.817+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:41:54.831+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:41:54.827+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T21:41:54.832+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:41:54.902+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.108 seconds
+[2025-11-23T21:42:25.026+0000] {processor.py:186} INFO - Started process (PID=1037) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:42:25.028+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T21:42:25.033+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:42:25.032+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:42:25.043+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:42:25.040+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T21:42:25.044+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:42:25.078+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.062 seconds
+[2025-11-23T21:42:55.199+0000] {processor.py:186} INFO - Started process (PID=1078) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:42:55.204+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T21:42:55.209+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:42:55.209+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:42:55.222+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:42:55.219+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T21:42:55.224+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:42:55.262+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.076 seconds
+[2025-11-23T21:43:25.969+0000] {processor.py:186} INFO - Started process (PID=1119) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:43:25.971+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T21:43:25.975+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:43:25.975+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:43:25.988+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:43:25.986+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T21:43:25.990+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:43:26.029+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.070 seconds
+[2025-11-23T21:43:56.403+0000] {processor.py:186} INFO - Started process (PID=1159) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:43:56.407+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T21:43:56.413+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:43:56.412+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:43:56.439+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:43:56.435+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T21:43:56.440+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:43:56.480+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.100 seconds
+[2025-11-23T21:52:34.219+0000] {processor.py:186} INFO - Started process (PID=331) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:52:34.231+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T21:52:34.267+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:52:34.263+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:52:34.305+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:52:34.283+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T21:52:34.307+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:52:34.501+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.302 seconds
+[2025-11-23T21:53:04.779+0000] {processor.py:186} INFO - Started process (PID=373) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:53:04.783+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T21:53:04.789+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:53:04.788+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:53:04.802+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:53:04.799+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T21:53:04.804+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:53:04.850+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.091 seconds
+[2025-11-23T21:53:35.499+0000] {processor.py:186} INFO - Started process (PID=421) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:53:35.507+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T21:53:35.539+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:53:35.537+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:53:35.654+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:53:35.641+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T21:53:35.656+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:53:35.794+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.360 seconds
+[2025-11-23T21:54:06.525+0000] {processor.py:186} INFO - Started process (PID=462) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:54:06.562+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T21:54:06.577+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:54:06.575+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:54:06.600+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:54:06.594+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T21:54:06.602+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:54:06.690+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.192 seconds
+[2025-11-23T21:54:36.949+0000] {processor.py:186} INFO - Started process (PID=499) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:54:36.951+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T21:54:36.957+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:54:36.956+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:54:36.969+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:54:36.966+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T21:54:36.971+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:54:37.012+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.072 seconds
+[2025-11-23T21:55:07.500+0000] {processor.py:186} INFO - Started process (PID=543) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:55:07.502+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T21:55:07.508+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:55:07.507+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:55:07.521+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:55:07.518+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T21:55:07.523+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:55:07.568+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.081 seconds
+[2025-11-23T21:55:38.348+0000] {processor.py:186} INFO - Started process (PID=584) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:55:38.372+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T21:55:38.399+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:55:38.397+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:55:38.448+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:55:38.434+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T21:55:38.450+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:55:38.645+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.331 seconds
+[2025-11-23T21:56:09.243+0000] {processor.py:186} INFO - Started process (PID=625) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:56:09.249+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T21:56:09.255+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:56:09.254+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:56:09.273+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:56:09.269+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T21:56:09.276+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:56:09.337+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.117 seconds
+[2025-11-23T21:56:39.878+0000] {processor.py:186} INFO - Started process (PID=666) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:56:39.880+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T21:56:39.887+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:56:39.886+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:56:39.901+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:56:39.897+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T21:56:39.903+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:56:39.954+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.089 seconds
+[2025-11-23T21:57:10.422+0000] {processor.py:186} INFO - Started process (PID=706) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:57:10.425+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T21:57:10.432+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:57:10.431+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:57:10.447+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:57:10.443+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T21:57:10.450+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:57:10.510+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.110 seconds
+[2025-11-23T21:57:40.913+0000] {processor.py:186} INFO - Started process (PID=744) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:57:40.916+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T21:57:40.926+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:57:40.925+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:57:40.961+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:57:40.953+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T21:57:40.965+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:57:41.141+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.253 seconds
+[2025-11-23T21:58:11.422+0000] {processor.py:186} INFO - Started process (PID=785) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:58:11.425+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T21:58:11.431+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:58:11.430+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:58:11.443+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:58:11.440+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T21:58:11.445+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:58:11.491+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.083 seconds
+[2025-11-23T21:58:42.301+0000] {processor.py:186} INFO - Started process (PID=826) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:58:42.302+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T21:58:42.307+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:58:42.307+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:58:42.317+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:58:42.315+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T21:58:42.318+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:58:42.359+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.070 seconds
+[2025-11-23T21:59:13.186+0000] {processor.py:186} INFO - Started process (PID=867) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:59:13.189+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T21:59:13.199+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:59:13.197+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:59:13.217+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:59:13.213+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T21:59:13.220+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:59:13.287+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.121 seconds
+[2025-11-23T21:59:44.141+0000] {processor.py:186} INFO - Started process (PID=907) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:59:44.143+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T21:59:44.154+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:59:44.152+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:59:44.179+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:59:44.174+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T21:59:44.182+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T21:59:44.257+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.135 seconds
+[2025-11-23T22:00:14.403+0000] {processor.py:186} INFO - Started process (PID=948) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:00:14.407+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T22:00:14.413+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:00:14.412+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:00:14.426+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:00:14.423+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T22:00:14.427+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:00:14.473+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.086 seconds
+[2025-11-23T22:00:44.737+0000] {processor.py:186} INFO - Started process (PID=989) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:00:44.739+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T22:00:44.751+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:00:44.750+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:00:44.766+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:00:44.762+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T22:00:44.768+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:00:44.848+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.144 seconds
+[2025-11-23T22:01:15.051+0000] {processor.py:186} INFO - Started process (PID=1030) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:01:15.054+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T22:01:15.060+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:01:15.059+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:01:15.075+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:01:15.071+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T22:01:15.077+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:01:15.158+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.129 seconds
+[2025-11-23T22:01:45.706+0000] {processor.py:186} INFO - Started process (PID=1071) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:01:45.708+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T22:01:45.713+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:01:45.713+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:01:45.722+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:01:45.720+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T22:01:45.723+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:01:45.760+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.064 seconds
+[2025-11-23T22:02:15.875+0000] {processor.py:186} INFO - Started process (PID=1112) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:02:15.878+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T22:02:15.883+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:02:15.883+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:02:15.896+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:02:15.893+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T22:02:15.899+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:02:15.948+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.087 seconds
+[2025-11-23T22:02:46.569+0000] {processor.py:186} INFO - Started process (PID=1153) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:02:46.571+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T22:02:46.577+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:02:46.576+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:02:46.590+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:02:46.586+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T22:02:46.592+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:02:46.626+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.069 seconds
+[2025-11-23T22:03:16.775+0000] {processor.py:186} INFO - Started process (PID=1194) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:03:16.777+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T22:03:16.781+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:03:16.781+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:03:16.791+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:03:16.788+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T22:03:16.792+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:03:16.827+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.063 seconds
+[2025-11-23T22:03:47.159+0000] {processor.py:186} INFO - Started process (PID=1235) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:03:47.162+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T22:03:47.166+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:03:47.166+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:03:47.179+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:03:47.176+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T22:03:47.180+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:03:47.226+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.082 seconds
+[2025-11-23T22:04:17.638+0000] {processor.py:186} INFO - Started process (PID=1276) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:04:17.640+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T22:04:17.644+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:04:17.643+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:04:17.655+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:04:17.652+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T22:04:17.656+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:04:17.693+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.066 seconds
+[2025-11-23T22:04:47.842+0000] {processor.py:186} INFO - Started process (PID=1317) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:04:47.844+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T22:04:47.849+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:04:47.848+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:04:47.859+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:04:47.856+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T22:04:47.860+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:04:47.897+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.065 seconds
+[2025-11-23T22:05:18.284+0000] {processor.py:186} INFO - Started process (PID=1358) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:05:18.287+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T22:05:18.292+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:05:18.291+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:05:18.302+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:05:18.300+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T22:05:18.304+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:05:18.346+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.075 seconds
+[2025-11-23T22:05:49.257+0000] {processor.py:186} INFO - Started process (PID=1399) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:05:49.260+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T22:05:49.266+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:05:49.265+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:05:49.289+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:05:49.285+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T22:05:49.291+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:05:49.351+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.119 seconds
+[2025-11-23T22:06:20.091+0000] {processor.py:186} INFO - Started process (PID=1439) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:06:20.097+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T22:06:20.106+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:06:20.105+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:06:20.122+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:06:20.119+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T22:06:20.126+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:06:20.190+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.122 seconds
+[2025-11-23T22:06:50.641+0000] {processor.py:186} INFO - Started process (PID=1480) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:06:50.642+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T22:06:50.649+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:06:50.648+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:06:50.661+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:06:50.657+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T22:06:50.663+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:06:50.708+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.082 seconds
+[2025-11-23T22:07:20.920+0000] {processor.py:186} INFO - Started process (PID=1521) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:07:20.921+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T22:07:20.927+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:07:20.926+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:07:20.940+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:07:20.936+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T22:07:20.942+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:07:20.980+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.072 seconds
+[2025-11-23T22:07:51.052+0000] {processor.py:186} INFO - Started process (PID=1561) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:07:51.055+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T22:07:51.062+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:07:51.061+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:07:51.080+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:07:51.077+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T22:07:51.082+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:07:51.126+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.090 seconds
+[2025-11-23T22:08:21.558+0000] {processor.py:186} INFO - Started process (PID=1602) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:08:21.560+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T22:08:21.565+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:08:21.564+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:08:21.580+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:08:21.577+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T22:08:21.582+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:08:21.634+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.088 seconds
+[2025-11-23T22:08:51.730+0000] {processor.py:186} INFO - Started process (PID=1643) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:08:51.732+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T22:08:51.739+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:08:51.738+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:08:51.751+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:08:51.748+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T22:08:51.753+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:08:51.797+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.083 seconds
+[2025-11-23T22:09:22.296+0000] {processor.py:186} INFO - Started process (PID=1683) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:09:22.298+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T22:09:22.303+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:09:22.302+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:09:22.313+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:09:22.311+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T22:09:22.316+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:09:22.360+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.078 seconds
+[2025-11-23T22:09:52.979+0000] {processor.py:186} INFO - Started process (PID=1724) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:09:52.980+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T22:09:52.987+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:09:52.986+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:09:52.999+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:09:52.996+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T22:09:53.001+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:09:53.045+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.077 seconds
+[2025-11-23T22:10:23.570+0000] {processor.py:186} INFO - Started process (PID=1765) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:10:23.572+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T22:10:23.578+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:10:23.578+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:10:23.596+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:10:23.592+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T22:10:23.598+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:10:23.679+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.125 seconds
+[2025-11-23T22:10:53.855+0000] {processor.py:186} INFO - Started process (PID=1806) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:10:53.857+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T22:10:53.862+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:10:53.861+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:10:53.874+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:10:53.870+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T22:10:53.875+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:10:53.919+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.076 seconds
+[2025-11-23T22:11:24.760+0000] {processor.py:186} INFO - Started process (PID=1848) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:11:24.761+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T22:11:24.766+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:11:24.765+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:11:24.777+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:11:24.774+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T22:11:24.778+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:11:24.814+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.065 seconds
+[2025-11-23T22:11:55.106+0000] {processor.py:186} INFO - Started process (PID=1889) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:11:55.108+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T22:11:55.114+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:11:55.113+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:11:55.131+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:11:55.127+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T22:11:55.134+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:11:55.180+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.115 seconds
+[2025-11-23T22:12:26.083+0000] {processor.py:186} INFO - Started process (PID=1930) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:12:26.086+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T22:12:26.090+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:12:26.089+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:12:26.100+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:12:26.097+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T22:12:26.102+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:12:26.139+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.068 seconds
+[2025-11-23T22:12:56.544+0000] {processor.py:186} INFO - Started process (PID=1971) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:12:56.547+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T22:12:56.553+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:12:56.552+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:12:56.567+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:12:56.563+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T22:12:56.569+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:12:56.610+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.079 seconds
+[2025-11-23T22:13:26.884+0000] {processor.py:186} INFO - Started process (PID=2014) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:13:26.886+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T22:13:26.890+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:13:26.890+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:13:26.900+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:13:26.897+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T22:13:26.901+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:13:26.938+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.065 seconds
+[2025-11-23T22:13:57.667+0000] {processor.py:186} INFO - Started process (PID=2054) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:13:57.669+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T22:13:57.678+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:13:57.677+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:13:57.696+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:13:57.694+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T22:13:57.698+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:13:57.777+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.129 seconds
+[2025-11-23T22:14:28.682+0000] {processor.py:186} INFO - Started process (PID=2094) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:14:28.684+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T22:14:28.688+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:14:28.687+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:14:28.698+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:14:28.695+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T22:14:28.699+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:14:28.730+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.059 seconds
+[2025-11-23T22:14:58.927+0000] {processor.py:186} INFO - Started process (PID=2135) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:14:58.928+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T22:14:58.933+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:14:58.932+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:14:58.944+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:14:58.940+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T22:14:58.945+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:14:58.982+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.071 seconds
+[2025-11-23T22:15:29.166+0000] {processor.py:186} INFO - Started process (PID=2176) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:15:29.168+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T22:15:29.172+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:15:29.171+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:15:29.181+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:15:29.179+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T22:15:29.183+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:15:29.216+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.060 seconds
+[2025-11-23T22:28:28.375+0000] {processor.py:186} INFO - Started process (PID=2232) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:28:28.379+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T22:28:28.388+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:28:28.386+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:28:28.402+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:28:28.398+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T22:28:28.403+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:28:28.455+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.101 seconds
+[2025-11-23T22:33:46.553+0000] {processor.py:186} INFO - Started process (PID=2286) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:33:46.556+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T22:33:46.563+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:33:46.562+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:33:46.585+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:33:46.580+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T22:33:46.588+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:33:46.644+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.106 seconds
+[2025-11-23T22:34:16.794+0000] {processor.py:186} INFO - Started process (PID=2325) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:34:16.798+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T22:34:16.805+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:34:16.804+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:34:16.815+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:34:16.812+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T22:34:16.818+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:34:16.855+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.073 seconds
+[2025-11-23T22:34:46.983+0000] {processor.py:186} INFO - Started process (PID=2363) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:34:46.985+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T22:34:46.989+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:34:46.988+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:34:46.998+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:34:46.995+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T22:34:47.000+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:34:47.035+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.062 seconds
+[2025-11-23T22:35:17.212+0000] {processor.py:186} INFO - Started process (PID=2403) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:35:17.214+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T22:35:17.219+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:35:17.219+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:35:17.233+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:35:17.229+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T22:35:17.234+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:35:17.276+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.077 seconds
+[2025-11-23T22:35:47.868+0000] {processor.py:186} INFO - Started process (PID=2448) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:35:47.871+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T22:35:47.877+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:35:47.876+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:35:47.891+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:35:47.887+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T22:35:47.895+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:35:47.933+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.077 seconds
+[2025-11-23T22:36:18.906+0000] {processor.py:186} INFO - Started process (PID=2489) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:36:18.948+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T22:36:18.968+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:36:18.966+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:36:19.004+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:36:18.992+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T22:36:19.010+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:36:19.140+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.263 seconds
+[2025-11-23T22:36:49.629+0000] {processor.py:186} INFO - Started process (PID=2530) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:36:49.631+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T22:36:49.636+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:36:49.636+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:36:49.646+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:36:49.644+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T22:36:49.649+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:36:49.691+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.075 seconds
+[2025-11-23T22:37:19.806+0000] {processor.py:186} INFO - Started process (PID=2568) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:37:19.807+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T22:37:19.812+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:37:19.811+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:37:19.821+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:37:19.818+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T22:37:19.822+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:37:19.853+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.058 seconds
+[2025-11-23T22:37:50.347+0000] {processor.py:186} INFO - Started process (PID=2612) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:37:50.350+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T22:37:50.356+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:37:50.355+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:37:50.366+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:37:50.364+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T22:37:50.367+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:37:50.405+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.073 seconds
+[2025-11-23T22:38:20.559+0000] {processor.py:186} INFO - Started process (PID=2650) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:38:20.560+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T22:38:20.565+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:38:20.564+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:38:20.575+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:38:20.572+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T22:38:20.576+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:38:20.608+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.060 seconds
+[2025-11-23T22:38:51.527+0000] {processor.py:186} INFO - Started process (PID=2694) to work on /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:38:51.530+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Medium_to_Pinecone.py for tasks to queue
+[2025-11-23T22:38:51.536+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:38:51.535+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:38:51.549+0000] {logging_mixin.py:190} INFO - [2025-11-23T22:38:51.546+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Medium_to_Pinecone.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Medium_to_Pinecone.py", line 12, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+[2025-11-23T22:38:51.552+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Medium_to_Pinecone.py
+[2025-11-23T22:38:51.592+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Medium_to_Pinecone.py took 0.078 seconds

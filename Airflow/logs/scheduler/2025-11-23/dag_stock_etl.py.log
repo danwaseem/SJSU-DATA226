@@ -1,0 +1,155 @@
+[2025-11-23T21:23:43.039+0000] {processor.py:186} INFO - Started process (PID=321) to work on /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:23:43.044+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_stock_etl.py for tasks to queue
+[2025-11-23T21:23:43.055+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:23:43.054+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:23:45.007+0000] {processor.py:925} INFO - DAG(s) 'stock_etl_yfinance' retrieved from /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:23:46.183+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:23:46.179+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:stock_etl_yfinance
+[2025-11-23T21:23:46.231+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:23:46.229+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:stock_etl_yfinance
+[2025-11-23T21:23:46.253+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:23:46.253+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:stock_etl_yfinance
+[2025-11-23T21:23:46.282+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:23:46.281+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:stock_etl_yfinance
+[2025-11-23T21:23:46.315+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:23:46.315+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:stock_etl_yfinance
+[2025-11-23T21:23:46.340+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:23:46.339+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:stock_etl_yfinance
+[2025-11-23T21:23:46.403+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:23:46.402+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:stock_etl_yfinance
+[2025-11-23T21:23:46.405+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:23:46.405+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-23T21:23:46.454+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:23:46.452+0000] {dag.py:3252} INFO - Creating ORM DAG for stock_etl_yfinance
+[2025-11-23T21:23:46.498+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:23:46.498+0000] {dag.py:4156} INFO - Setting next_dagrun for stock_etl_yfinance to 2025-11-22 02:30:00+00:00, run_after=2025-11-23 02:30:00+00:00
+[2025-11-23T21:23:46.569+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_stock_etl.py took 3.555 seconds
+[2025-11-23T21:24:17.398+0000] {processor.py:186} INFO - Started process (PID=382) to work on /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:24:17.401+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_stock_etl.py for tasks to queue
+[2025-11-23T21:24:17.408+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:24:17.407+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:24:17.908+0000] {processor.py:925} INFO - DAG(s) 'stock_etl_yfinance' retrieved from /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:24:17.937+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:24:17.936+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-23T21:24:17.998+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:24:17.998+0000] {dag.py:4156} INFO - Setting next_dagrun for stock_etl_yfinance to 2025-11-22 02:30:00+00:00, run_after=2025-11-23 02:30:00+00:00
+[2025-11-23T21:24:18.037+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_stock_etl.py took 0.664 seconds
+[2025-11-23T21:24:48.201+0000] {processor.py:186} INFO - Started process (PID=442) to work on /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:24:48.202+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_stock_etl.py for tasks to queue
+[2025-11-23T21:24:48.207+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:24:48.206+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:24:48.471+0000] {processor.py:925} INFO - DAG(s) 'stock_etl_yfinance' retrieved from /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:24:48.499+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:24:48.498+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-23T21:24:48.543+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:24:48.543+0000] {dag.py:4156} INFO - Setting next_dagrun for stock_etl_yfinance to 2025-11-22 02:30:00+00:00, run_after=2025-11-23 02:30:00+00:00
+[2025-11-23T21:24:48.579+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_stock_etl.py took 0.390 seconds
+[2025-11-23T21:25:18.673+0000] {processor.py:186} INFO - Started process (PID=484) to work on /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:25:18.675+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_stock_etl.py for tasks to queue
+[2025-11-23T21:25:18.679+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:25:18.678+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:25:18.935+0000] {processor.py:925} INFO - DAG(s) 'stock_etl_yfinance' retrieved from /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:25:18.957+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:25:18.956+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-23T21:25:18.998+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:25:18.998+0000] {dag.py:4156} INFO - Setting next_dagrun for stock_etl_yfinance to 2025-11-22 02:30:00+00:00, run_after=2025-11-23 02:30:00+00:00
+[2025-11-23T21:25:19.030+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_stock_etl.py took 0.367 seconds
+[2025-11-23T21:25:49.101+0000] {processor.py:186} INFO - Started process (PID=526) to work on /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:25:49.102+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_stock_etl.py for tasks to queue
+[2025-11-23T21:25:49.107+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:25:49.106+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:25:49.390+0000] {processor.py:925} INFO - DAG(s) 'stock_etl_yfinance' retrieved from /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:25:49.418+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:25:49.417+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-23T21:25:49.473+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:25:49.473+0000] {dag.py:4156} INFO - Setting next_dagrun for stock_etl_yfinance to 2025-11-22 02:30:00+00:00, run_after=2025-11-23 02:30:00+00:00
+[2025-11-23T21:25:49.511+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_stock_etl.py took 0.421 seconds
+[2025-11-23T21:26:20.274+0000] {processor.py:186} INFO - Started process (PID=567) to work on /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:26:20.277+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_stock_etl.py for tasks to queue
+[2025-11-23T21:26:20.281+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:26:20.281+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:26:20.600+0000] {processor.py:925} INFO - DAG(s) 'stock_etl_yfinance' retrieved from /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:26:20.643+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:26:20.642+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-23T21:26:20.715+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:26:20.714+0000] {dag.py:4156} INFO - Setting next_dagrun for stock_etl_yfinance to 2025-11-22 02:30:00+00:00, run_after=2025-11-23 02:30:00+00:00
+[2025-11-23T21:26:20.758+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_stock_etl.py took 0.496 seconds
+[2025-11-23T21:26:51.058+0000] {processor.py:186} INFO - Started process (PID=613) to work on /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:26:51.059+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_stock_etl.py for tasks to queue
+[2025-11-23T21:26:51.064+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:26:51.063+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:26:51.327+0000] {processor.py:925} INFO - DAG(s) 'stock_etl_yfinance' retrieved from /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:26:51.349+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:26:51.349+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-23T21:26:51.398+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:26:51.397+0000] {dag.py:4156} INFO - Setting next_dagrun for stock_etl_yfinance to 2025-11-22 02:30:00+00:00, run_after=2025-11-23 02:30:00+00:00
+[2025-11-23T21:26:51.440+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_stock_etl.py took 0.395 seconds
+[2025-11-23T21:27:21.972+0000] {processor.py:186} INFO - Started process (PID=649) to work on /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:27:21.976+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_stock_etl.py for tasks to queue
+[2025-11-23T21:27:21.982+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:27:21.981+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:27:22.261+0000] {processor.py:925} INFO - DAG(s) 'stock_etl_yfinance' retrieved from /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:27:22.294+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:27:22.293+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-23T21:27:22.334+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:27:22.334+0000] {dag.py:4156} INFO - Setting next_dagrun for stock_etl_yfinance to 2025-11-22 02:30:00+00:00, run_after=2025-11-23 02:30:00+00:00
+[2025-11-23T21:27:22.365+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_stock_etl.py took 0.406 seconds
+[2025-11-23T21:27:52.782+0000] {processor.py:186} INFO - Started process (PID=695) to work on /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:27:52.784+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_stock_etl.py for tasks to queue
+[2025-11-23T21:27:52.790+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:27:52.789+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:27:53.073+0000] {processor.py:925} INFO - DAG(s) 'stock_etl_yfinance' retrieved from /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:27:53.092+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:27:53.092+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-23T21:27:53.128+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:27:53.127+0000] {dag.py:4156} INFO - Setting next_dagrun for stock_etl_yfinance to 2025-11-22 02:30:00+00:00, run_after=2025-11-23 02:30:00+00:00
+[2025-11-23T21:27:53.159+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_stock_etl.py took 0.391 seconds
+[2025-11-23T21:38:19.397+0000] {processor.py:186} INFO - Started process (PID=710) to work on /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:38:19.403+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_stock_etl.py for tasks to queue
+[2025-11-23T21:38:19.430+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:38:19.429+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:38:20.553+0000] {processor.py:925} INFO - DAG(s) 'stock_etl_yfinance' retrieved from /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:38:20.840+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:38:20.840+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-23T21:38:21.011+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:38:21.010+0000] {dag.py:4156} INFO - Setting next_dagrun for stock_etl_yfinance to 2025-11-22 02:30:00+00:00, run_after=2025-11-23 02:30:00+00:00
+[2025-11-23T21:38:21.092+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_stock_etl.py took 1.739 seconds
+[2025-11-23T21:38:52.061+0000] {processor.py:186} INFO - Started process (PID=760) to work on /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:38:52.083+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_stock_etl.py for tasks to queue
+[2025-11-23T21:38:52.100+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:38:52.099+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:38:52.970+0000] {processor.py:925} INFO - DAG(s) 'stock_etl_yfinance' retrieved from /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:38:53.016+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:38:53.015+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-23T21:38:53.144+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:38:53.144+0000] {dag.py:4156} INFO - Setting next_dagrun for stock_etl_yfinance to 2025-11-22 02:30:00+00:00, run_after=2025-11-23 02:30:00+00:00
+[2025-11-23T21:38:53.214+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_stock_etl.py took 1.232 seconds
+[2025-11-23T21:39:23.935+0000] {processor.py:186} INFO - Started process (PID=805) to work on /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:39:23.941+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_stock_etl.py for tasks to queue
+[2025-11-23T21:39:23.994+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:39:23.993+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:39:25.172+0000] {processor.py:925} INFO - DAG(s) 'stock_etl_yfinance' retrieved from /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:39:25.237+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:39:25.236+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-23T21:39:25.431+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:39:25.431+0000] {dag.py:4156} INFO - Setting next_dagrun for stock_etl_yfinance to 2025-11-22 02:30:00+00:00, run_after=2025-11-23 02:30:00+00:00
+[2025-11-23T21:39:25.610+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_stock_etl.py took 1.728 seconds
+[2025-11-23T21:39:55.788+0000] {processor.py:186} INFO - Started process (PID=852) to work on /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:39:55.790+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_stock_etl.py for tasks to queue
+[2025-11-23T21:39:55.794+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:39:55.794+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:39:56.078+0000] {processor.py:925} INFO - DAG(s) 'stock_etl_yfinance' retrieved from /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:39:56.099+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:39:56.099+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-23T21:39:56.143+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:39:56.142+0000] {dag.py:4156} INFO - Setting next_dagrun for stock_etl_yfinance to 2025-11-22 02:30:00+00:00, run_after=2025-11-23 02:30:00+00:00
+[2025-11-23T21:39:56.176+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_stock_etl.py took 0.400 seconds
+[2025-11-23T21:40:27.116+0000] {processor.py:186} INFO - Started process (PID=898) to work on /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:40:27.119+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_stock_etl.py for tasks to queue
+[2025-11-23T21:40:27.128+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:40:27.127+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:40:27.763+0000] {processor.py:925} INFO - DAG(s) 'stock_etl_yfinance' retrieved from /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:40:28.038+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:40:28.038+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-23T21:40:28.207+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:40:28.205+0000] {dag.py:4156} INFO - Setting next_dagrun for stock_etl_yfinance to 2025-11-22 02:30:00+00:00, run_after=2025-11-23 02:30:00+00:00
+[2025-11-23T21:40:28.289+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_stock_etl.py took 1.188 seconds
+[2025-11-23T21:40:58.612+0000] {processor.py:186} INFO - Started process (PID=939) to work on /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:40:58.620+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_stock_etl.py for tasks to queue
+[2025-11-23T21:40:58.636+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:40:58.634+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:40:58.998+0000] {processor.py:925} INFO - DAG(s) 'stock_etl_yfinance' retrieved from /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:40:59.025+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:40:59.025+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-23T21:40:59.076+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:40:59.075+0000] {dag.py:4156} INFO - Setting next_dagrun for stock_etl_yfinance to 2025-11-22 02:30:00+00:00, run_after=2025-11-23 02:30:00+00:00
+[2025-11-23T21:40:59.108+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_stock_etl.py took 0.522 seconds
+[2025-11-23T21:41:29.232+0000] {processor.py:186} INFO - Started process (PID=980) to work on /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:41:29.233+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_stock_etl.py for tasks to queue
+[2025-11-23T21:41:29.238+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:41:29.237+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:41:29.573+0000] {processor.py:925} INFO - DAG(s) 'stock_etl_yfinance' retrieved from /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:41:29.603+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:41:29.602+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-23T21:41:29.650+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:41:29.650+0000] {dag.py:4156} INFO - Setting next_dagrun for stock_etl_yfinance to 2025-11-22 02:30:00+00:00, run_after=2025-11-23 02:30:00+00:00
+[2025-11-23T21:41:29.682+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_stock_etl.py took 0.463 seconds
+[2025-11-23T21:42:00.072+0000] {processor.py:186} INFO - Started process (PID=1026) to work on /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:42:00.077+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_stock_etl.py for tasks to queue
+[2025-11-23T21:42:00.084+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:42:00.083+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:42:00.462+0000] {processor.py:925} INFO - DAG(s) 'stock_etl_yfinance' retrieved from /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:42:00.486+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:42:00.486+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-23T21:42:00.528+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:42:00.528+0000] {dag.py:4156} INFO - Setting next_dagrun for stock_etl_yfinance to 2025-11-22 02:30:00+00:00, run_after=2025-11-23 02:30:00+00:00
+[2025-11-23T21:42:00.562+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_stock_etl.py took 0.501 seconds
+[2025-11-23T21:42:30.881+0000] {processor.py:186} INFO - Started process (PID=1067) to work on /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:42:30.882+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_stock_etl.py for tasks to queue
+[2025-11-23T21:42:30.887+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:42:30.886+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:42:31.141+0000] {processor.py:925} INFO - DAG(s) 'stock_etl_yfinance' retrieved from /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:42:31.161+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:42:31.161+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-23T21:42:31.204+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:42:31.204+0000] {dag.py:4156} INFO - Setting next_dagrun for stock_etl_yfinance to 2025-11-22 02:30:00+00:00, run_after=2025-11-23 02:30:00+00:00
+[2025-11-23T21:42:31.241+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_stock_etl.py took 0.370 seconds
+[2025-11-23T21:43:01.380+0000] {processor.py:186} INFO - Started process (PID=1108) to work on /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:43:01.382+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_stock_etl.py for tasks to queue
+[2025-11-23T21:43:01.389+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:43:01.388+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:43:01.691+0000] {processor.py:925} INFO - DAG(s) 'stock_etl_yfinance' retrieved from /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:43:01.724+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:43:01.724+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-23T21:43:01.777+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:43:01.776+0000] {dag.py:4156} INFO - Setting next_dagrun for stock_etl_yfinance to 2025-11-22 02:30:00+00:00, run_after=2025-11-23 02:30:00+00:00
+[2025-11-23T21:43:01.815+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_stock_etl.py took 0.450 seconds
+[2025-11-23T21:43:32.462+0000] {processor.py:186} INFO - Started process (PID=1149) to work on /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:43:32.464+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_stock_etl.py for tasks to queue
+[2025-11-23T21:43:32.469+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:43:32.469+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:43:32.761+0000] {processor.py:925} INFO - DAG(s) 'stock_etl_yfinance' retrieved from /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:43:32.783+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:43:32.782+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-23T21:43:32.825+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:43:32.824+0000] {dag.py:4156} INFO - Setting next_dagrun for stock_etl_yfinance to 2025-11-22 02:30:00+00:00, run_after=2025-11-23 02:30:00+00:00
+[2025-11-23T21:43:32.858+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_stock_etl.py took 0.408 seconds
+[2025-11-23T21:44:02.925+0000] {processor.py:186} INFO - Started process (PID=1189) to work on /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:44:02.926+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_stock_etl.py for tasks to queue
+[2025-11-23T21:44:02.931+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:44:02.930+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:44:03.293+0000] {processor.py:925} INFO - DAG(s) 'stock_etl_yfinance' retrieved from /opt/airflow/dags/dag_stock_etl.py
+[2025-11-23T21:44:03.330+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:44:03.329+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-23T21:44:03.376+0000] {logging_mixin.py:190} INFO - [2025-11-23T21:44:03.376+0000] {dag.py:4156} INFO - Setting next_dagrun for stock_etl_yfinance to 2025-11-22 02:30:00+00:00, run_after=2025-11-23 02:30:00+00:00
+[2025-11-23T21:44:03.425+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_stock_etl.py took 0.510 seconds

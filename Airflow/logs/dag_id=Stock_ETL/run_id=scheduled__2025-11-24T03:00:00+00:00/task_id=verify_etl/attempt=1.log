@@ -1,0 +1,22 @@
+[2025-11-25T04:37:37.309+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-11-25T04:37:37.367+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Stock_ETL.verify_etl scheduled__2025-11-24T03:00:00+00:00 [queued]>
+[2025-11-25T04:37:37.392+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Stock_ETL.verify_etl scheduled__2025-11-24T03:00:00+00:00 [queued]>
+[2025-11-25T04:37:37.393+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2025-11-25T04:37:37.431+0000] {taskinstance.py:2888} INFO - Executing <Task(_PythonDecoratedOperator): verify_etl> on 2025-11-24 03:00:00+00:00
+[2025-11-25T04:37:37.457+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=2916) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-11-25T04:37:37.460+0000] {standard_task_runner.py:72} INFO - Started process 2929 to run task
+[2025-11-25T04:37:37.458+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'Stock_ETL', 'verify_etl', 'scheduled__2025-11-24T03:00:00+00:00', '--job-id', '143', '--raw', '--subdir', 'DAGS_FOLDER/stock_etl_yfinance.py', '--cfg-path', '/tmp/tmpe3kkjww9']
+[2025-11-25T04:37:37.463+0000] {standard_task_runner.py:105} INFO - Job 143: Subtask verify_etl
+[2025-11-25T04:37:37.556+0000] {task_command.py:467} INFO - Running <TaskInstance: Stock_ETL.verify_etl scheduled__2025-11-24T03:00:00+00:00 [running]> on host 70371839f9d1
+[2025-11-25T04:37:37.771+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='Stock_ETL' AIRFLOW_CTX_TASK_ID='verify_etl' AIRFLOW_CTX_EXECUTION_DATE='2025-11-24T03:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-11-24T03:00:00+00:00'
+[2025-11-25T04:37:37.773+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-11-25T04:37:37.800+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-11-25T04:37:37.803+0000] {connection.py:399} INFO - Snowflake Connector for Python Version: 3.10.0, Python Version: 3.12.5, Platform: Linux-6.12.54-linuxkit-x86_64-with-glibc2.36
+[2025-11-25T04:37:37.805+0000] {connection.py:1239} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-11-25T04:37:38.510+0000] {cursor.py:1149} INFO - Number of results in first chunk: 1
+[2025-11-25T04:37:38.516+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-11-25T04:37:38.537+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-11-25T04:37:38.538+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=Stock_ETL, task_id=verify_etl, run_id=scheduled__2025-11-24T03:00:00+00:00, execution_date=20251124T030000, start_date=20251125T043737, end_date=20251125T043738
+[2025-11-25T04:37:38.602+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-11-25T04:37:38.653+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-11-25T04:37:38.657+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

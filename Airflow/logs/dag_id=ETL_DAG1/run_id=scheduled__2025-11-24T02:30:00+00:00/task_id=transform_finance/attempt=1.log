@@ -1,0 +1,18 @@
+[2025-11-25T06:11:49.265+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-11-25T06:11:49.294+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ETL_DAG1.transform_finance scheduled__2025-11-24T02:30:00+00:00 [queued]>
+[2025-11-25T06:11:49.310+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ETL_DAG1.transform_finance scheduled__2025-11-24T02:30:00+00:00 [queued]>
+[2025-11-25T06:11:49.312+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2025-11-25T06:11:49.334+0000] {taskinstance.py:2888} INFO - Executing <Task(_PythonDecoratedOperator): transform_finance> on 2025-11-24 02:30:00+00:00
+[2025-11-25T06:11:49.349+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=7990) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-11-25T06:11:49.352+0000] {standard_task_runner.py:72} INFO - Started process 7993 to run task
+[2025-11-25T06:11:49.350+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'ETL_DAG1', 'transform_finance', 'scheduled__2025-11-24T02:30:00+00:00', '--job-id', '154', '--raw', '--subdir', 'DAGS_FOLDER/stock_etl_yfinance.py', '--cfg-path', '/tmp/tmpmyzq9imz']
+[2025-11-25T06:11:49.356+0000] {standard_task_runner.py:105} INFO - Job 154: Subtask transform_finance
+[2025-11-25T06:11:49.476+0000] {task_command.py:467} INFO - Running <TaskInstance: ETL_DAG1.transform_finance scheduled__2025-11-24T02:30:00+00:00 [running]> on host 70371839f9d1
+[2025-11-25T06:11:49.768+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='ETL_DAG1' AIRFLOW_CTX_TASK_ID='transform_finance' AIRFLOW_CTX_EXECUTION_DATE='2025-11-24T02:30:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-11-24T02:30:00+00:00'
+[2025-11-25T06:11:49.771+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-11-25T06:11:49.775+0000] {python.py:240} INFO - Done. Returned value was: []
+[2025-11-25T06:11:49.818+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-11-25T06:11:49.819+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=ETL_DAG1, task_id=transform_finance, run_id=scheduled__2025-11-24T02:30:00+00:00, execution_date=20251124T023000, start_date=20251125T061149, end_date=20251125T061149
+[2025-11-25T06:11:49.868+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-11-25T06:11:49.920+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-11-25T06:11:49.923+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
